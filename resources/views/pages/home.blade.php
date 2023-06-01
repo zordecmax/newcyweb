@@ -256,7 +256,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
-                        <img class="w-100 img-fluid mb-2 img-employ" src="/images/employ.jpg" alt="">
+                        <img class="w-100 img-fluid mb-2" src="/images/employ.jpg" alt="">
                     </div>
                     <h6 class="fs-5">Maksim</h6>
                     <p class="fs-6">Full Stack Developer</p>
@@ -264,7 +264,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
-                        <img class="w-100 img-fluid mb-2 img-employ" src="/images/employ-2.jpg" alt="">
+                        <img class="w-100 img-fluid mb-2" src="/images/employ-2.jpg" alt="">
                     </div>
                     <h6 class="fs-5">Marina</h6>
                     <p class="fs-6">Product Manager</p>
@@ -272,7 +272,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
-                        <img class="w-100 img-fluid mb-2 img-employ" src="/images/employ-3.jpg" alt="">
+                        <img class="w-100 img-fluid mb-2" src="/images/employ-3.jpg" alt="">
                     </div>
                     <h6 class="fs-5">Sergey</h6>
                     <p class="fs-6">Backend Developer</p>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
-                        <img class="w-100 img-fluid mb-2 img-employ" src="/images/employ-4.jpg" alt="">
+                        <img class="w-100 img-fluid mb-2" src="/images/employ-4.jpg" alt="">
                     </div>
                     <h6 class="fs-5">Alex</h6>
                     <p class="fs-6">Frontend Developer</p>
