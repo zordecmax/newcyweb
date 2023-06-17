@@ -3,7 +3,8 @@
         <div class="container justify-content-between">
             <!-- Логотип -->
             <a class="navbar-brand" href="#">
-                <img src="path/to/logo.png" alt="Logo">1
+                <!-- <img src="path/to/logo.png" alt="Logo">1 -->
+                Cyprusweb.eu
             </a>
 
             <!-- Кнопка бургер для адаптивного меню -->
@@ -23,6 +24,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prices">Prices</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
