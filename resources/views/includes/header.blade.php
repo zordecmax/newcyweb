@@ -3,7 +3,7 @@
         <div class="container justify-content-between">
             <!-- Логотип -->
             <a class="navbar-brand" href="#">
-                <img src="path/to/logo.png" alt="Logo">
+                <img src="path/to/logo.png" alt="Logo">1
             </a>
 
             <!-- Кнопка бургер для адаптивного меню -->
