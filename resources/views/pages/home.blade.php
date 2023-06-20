@@ -2,6 +2,124 @@
 
 
 @section('content')
+    <!-- hero -->
+    <section class="section-newhero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center text-white">
+                <div class="col-12 col-lg-6">
+                    <p>Providing Complete Designs Services</p>
+                    <h1>We Are A Corporate
+                        Website Design &
+                        Development Company</h1>
+                    <p>Dedicated For Your Brand And Identity</p>
+                    <ul>
+                        <li class="li-item-hero">Let us aid you in generating more leads</li>
+                        <li class="li-item-hero">Increase your Return on investment by huge margins</li>
+                        <li class="li-item-hero">Get noticed by your audience at the first glance</li>
+                    </ul>
+                </div>
+                <div class="col-6 d-none d-lg-flex">
+                    <img class="img-fluid" src="https://globaldesignstop.com/images/webp/banner-side.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero -->
+
+    <!-- portfolio -->
+    <section class="my-4">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Lead Focused Web Designs</h2>
+                <h3>Along With <span>Targeted Marketing Techniques</span> </h3>
+                <p>We build brands by impecular design sense combined with words that pull the interest of your target
+                    audience.
+                </p>
+            </div>
+            <ul class="nav nav-tabs cust-nav-tabs justify-content-center border-0 mb-5" id="myTab" role="tablist">
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="b2b-tab" data-bs-toggle="tab" href="#b2b" role="tab"
+                        aria-controls="b2b" aria-selected="false">Custom Webiste</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="fashion-tab" data-bs-toggle="tab" href="#fashion" role="tab"
+                        aria-controls="fashion" aria-selected="false">Fashion</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="realestate-tab" data-bs-toggle="tab" href="#realestate"
+                        role="tab" aria-controls="realestate" aria-selected="false">Real Estate</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="restaurant-tab" data-bs-toggle="tab" href="#restaurant"
+                        role="tab" aria-controls="restaurant" aria-selected="false">Restaurant</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="healthcare-tab" data-bs-toggle="tab" href="#healthcare"
+                        role="tab" aria-controls="healthcare" aria-selected="false">Health Care</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link active" id="entertainment-tab" data-bs-toggle="tab"
+                        href="#entertainment" role="tab" aria-controls="entertainment"
+                        aria-selected="true">Entertainment</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="beauty-tab" data-bs-toggle="tab" href="#beauty" role="tab"
+                        aria-controls="beauty" aria-selected="false">Beauty</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="auto-tab" data-bs-toggle="tab" href="#auto" role="tab"
+                        aria-controls="auto" aria-selected="false">Auto</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="cbd-tab" data-bs-toggle="tab" href="#cbd" role="tab"
+                        aria-controls="cbd" aria-selected="false">CBD</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="education-tab" data-bs-toggle="tab" href="#education"
+                        role="tab" aria-controls="education" aria-selected="false">Education</a>
+                </li>
+                <li role="presentation">
+                    <a class="nav-link cust-nav-link" id="fitness-tab" data-bs-toggle="tab" href="#fitness"
+                        role="tab" aria-controls="fitness" aria-selected="false">Fitness</a>
+                </li>
+            </ul>
+
+            <div class="row g-3">
+                <div class="col-12 col-md-4">
+                    <div class="portfolio-item">
+                        <img class="portfolio-item-img"
+                            src="https://globaldesignstop.com/images/webp/portfolio/Entertainment1.jpg" alt="">
+                        <div class="portfolio-item-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="portfolio-item">
+                        <img class="portfolio-item-img"
+                            src="https://globaldesignstop.com/images/webp/portfolio/Entertainment1.jpg" alt="">
+                        <div class="portfolio-item-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="portfolio-item">
+                        <img class="portfolio-item-img"
+                            src="https://globaldesignstop.com/images/webp/portfolio/Entertainment1.jpg" alt="">
+                        <div class="portfolio-item-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- portfolio -->
+
+
     <!-- Awesome features -->
     <section id="features" class="section-wrapper">
         <div class="container">
@@ -20,7 +138,10 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">Analytics</h6>
-                            <p class="fw-light fs-6">We focus on the careful collection and thoughtful analysis of data, relying on which we identify problems, form the goals and business objectives of the project. We conduct interviews with business customers within the client's company in all interested departments.</p>
+                            <p class="fw-light fs-6">We focus on the careful collection and thoughtful analysis of data,
+                                relying on which we identify problems, form the goals and business objectives of the
+                                project. We conduct interviews with business customers within the client's company in all
+                                interested departments.</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -29,7 +150,9 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">Design</h6>
-                            <p class="fw-light fs-6">We form the TOR, break the project into stages, determine priorities, deadlines, budget, technology stack and create a prototype. Our trump card at this stage is the speed of the start!</p>
+                            <p class="fw-light fs-6">We form the TOR, break the project into stages, determine priorities,
+                                deadlines, budget, technology stack and create a prototype. Our trump card at this stage is
+                                the speed of the start!</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -38,7 +161,9 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">Development</h6>
-                            <p class="fw-light fs-6">We create Highload-class products for the web using our own team of programmers. We carefully test the project manually and with auto-tests. We check the service for fault tolerance and peak loads.</p>
+                            <p class="fw-light fs-6">We create Highload-class products for the web using our own team of
+                                programmers. We carefully test the project manually and with auto-tests. We check the
+                                service for fault tolerance and peak loads.</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
@@ -47,7 +172,11 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">Support and development</h6>
-                            <p class="fw-light fs-6">We don't just release a product for free. Our task is to assemble the MVP of the project in a short time and work further on its continuous improvement and implementation of new functionality. We put forward hypotheses of what can be improved on the project and test them to achieve the maximum result. Our trump card - we provide support 24/7</p>
+                            <p class="fw-light fs-6">We don't just release a product for free. Our task is to assemble the
+                                MVP of the project in a short time and work further on its continuous improvement and
+                                implementation of new functionality. We put forward hypotheses of what can be improved on
+                                the project and test them to achieve the maximum result. Our trump card - we provide support
+                                24/7</p>
                         </div>
                     </div>
                 </div>
@@ -72,7 +201,8 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">UX design</h6>
-                            <p class="fw-light fs-6">Our UX design experts create intuitive and user-friendly interfaces to enhance user satisfaction and engagement.</p>
+                            <p class="fw-light fs-6">Our UX design experts create intuitive and user-friendly interfaces to
+                                enhance user satisfaction and engagement.</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +213,8 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">UI Design</h6>
-                            <p class="fw-light fs-6">We craft visually appealing UI designs that not only captivate users but also provide a seamless browsing experience.</p>
+                            <p class="fw-light fs-6">We craft visually appealing UI designs that not only captivate users
+                                but also provide a seamless browsing experience.</p>
                         </div>
                     </div>
                 </div>
@@ -94,7 +225,8 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">SEO Services</h6>
-                            <p class="fw-light fs-6">Our SEO services optimize your website to improve its visibility and ranking on search engine results pages.</p>
+                            <p class="fw-light fs-6">Our SEO services optimize your website to improve its visibility and
+                                ranking on search engine results pages.</p>
                         </div>
                     </div>
                 </div>
@@ -105,7 +237,8 @@
                         </div>
                         <div>
                             <h6 class="fw-bold fs-5">Web App Development</h6>
-                            <p class="fw-light fs-6">We develop custom web applications tailored to your business needs, delivering high-quality and scalable solutions.</p>
+                            <p class="fw-light fs-6">We develop custom web applications tailored to your business needs,
+                                delivering high-quality and scalable solutions.</p>
                         </div>
                     </div>
                 </div>
@@ -164,7 +297,10 @@
                 </div>
                 <div class="col-12 col-lg-6 order-2 order-lg-1">
                     <h5>Multi Capability</h5>
-                    <p>We are a passionate team of experts dedicated to delivering exceptional results. With years of experience and a deep understanding of the industry, we strive to provide innovative solutions tailored to meet our clients' unique needs. Our commitment to excellence and attention to detail sets us apart, ensuring that every project we undertake is a success.</p>
+                    <p>We are a passionate team of experts dedicated to delivering exceptional results. With years of
+                        experience and a deep understanding of the industry, we strive to provide innovative solutions
+                        tailored to meet our clients' unique needs. Our commitment to excellence and attention to detail
+                        sets us apart, ensuring that every project we undertake is a success.</p>
                     <div class="row g-3">
                         <div class="col-12 col-sm-6 d-flex align-items-center">
                             <i class="bi bi-check-square"></i>
@@ -259,7 +395,10 @@
                     </div>
                     <h6 class="fs-5">Maksim</h6>
                     <p class="fs-6">Full Stack Developer</p>
-                    <p class="fs-6">Our Full Stack Developer combines the best of both worlds, proficient in frontend and backend technologies. With a holistic approach to development, they can handle the entire software development process, from designing user interfaces to implementing server-side logic. Their versatility and expertise enable them to create comprehensive and dynamic web solutions.</p>
+                    <p class="fs-6">Our Full Stack Developer combines the best of both worlds, proficient in frontend and
+                        backend technologies. With a holistic approach to development, they can handle the entire software
+                        development process, from designing user interfaces to implementing server-side logic. Their
+                        versatility and expertise enable them to create comprehensive and dynamic web solutions.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
@@ -267,7 +406,9 @@
                     </div>
                     <h6 class="fs-5">Marina</h6>
                     <p class="fs-6">Product Manager</p>
-                    <p class="fs-6">Our skilled Product Manager brings expertise in translating business requirements into innovative product solutions. With a deep understanding of user needs and market trends, they drive the development and delivery of exceptional products that exceed customer expectations.</p>
+                    <p class="fs-6">Our skilled Product Manager brings expertise in translating business requirements
+                        into innovative product solutions. With a deep understanding of user needs and market trends, they
+                        drive the development and delivery of exceptional products that exceed customer expectations.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
@@ -275,7 +416,10 @@
                     </div>
                     <h6 class="fs-5">Sergey</h6>
                     <p class="fs-6">Backend Developer</p>
-                    <p class="fs-6">Our Backend Developer is the backbone of our technical infrastructure. They architect and build robust and scalable server-side systems, ensuring the smooth operation of our web applications. With a focus on efficiency and security, they handle data management, integrations, and API development.</p>
+                    <p class="fs-6">Our Backend Developer is the backbone of our technical infrastructure. They architect
+                        and build robust and scalable server-side systems, ensuring the smooth operation of our web
+                        applications. With a focus on efficiency and security, they handle data management, integrations,
+                        and API development.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="img-employ-container">
@@ -283,7 +427,10 @@
                     </div>
                     <h6 class="fs-5">Alex</h6>
                     <p class="fs-6">Frontend Developer</p>
-                    <p class="fs-6">Our Frontend Developer is a master of crafting captivating user interfaces and seamless user experiences. With a keen eye for design and proficiency in cutting-edge frontend technologies, they transform concepts into visually stunning and highly interactive web applications.</p>
+                    <p class="fs-6">Our Frontend Developer is a master of crafting captivating user interfaces and
+                        seamless user experiences. With a keen eye for design and proficiency in cutting-edge frontend
+                        technologies, they transform concepts into visually stunning and highly interactive web
+                        applications.</p>
                 </div>
             </div>
         </div>
@@ -294,61 +441,66 @@
         <div class="container">
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal">Pricing</h1>
-                <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
-              </div>
-              <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this
+                    Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
+                </p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <div class="col">
-                  <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                      <h4 class="my-0 fw-normal">Free</h4>
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>10 users included</li>
-                        <li>2 GB of storage</li>
-                        <li>Email support</li>
-                        <li>Help center access</li>
-                      </ul>
-                      <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
-                    </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                      <h4 class="my-0 fw-normal">Pro</h4>
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>20 users included</li>
-                        <li>10 GB of storage</li>
-                        <li>Priority email support</li>
-                        <li>Help center access</li>
-                      </ul>
-                      <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
-                    </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                    <div class="card-header py-3 text-white bg-primary border-primary">
-                      <h4 class="my-0 fw-normal">Enterprise</h4>
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li>30 users included</li>
-                        <li>15 GB of storage</li>
-                        <li>Phone and email support</li>
-                        <li>Help center access</li>
-                      </ul>
-                      <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </div>
     </section>
 @endsection

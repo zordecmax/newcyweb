@@ -15,6 +15,7 @@
     --color--gray_light: #9F9F9F;
     --color--gray_dark: #D9D9D9;
     --color--blue:#45aed6;
+    --color--red:#e92747;
   }
   
   a {
@@ -175,3 +176,158 @@
   .icon-circle i{
     line-height: 1;
   }
+
+  .lh-1 {
+    line-height: 1 !important;
+}
+
+.hover-red {
+    transition: all 0.5s ease;
+}
+
+.hover-red:hover {
+    color: var(--color--red) !important;
+}
+
+.btn-discount {
+    text-transform: uppercase;
+    color: #333;
+    padding: 13px 30px;
+    box-shadow: 0 7px 18px 0 rgba(0, 0, 0, .07);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    transition: all 0.7s ease;
+}
+
+.btn-discount:hover {
+    background-color: var(--color--red);
+    border: 1px solid transparent;
+    color: var(--color--white);
+}
+
+.section-newhero {
+    height: calc(100vh - 106px);
+    margin-top: 106px;
+    background-image: url('https://globaldesignstop.com/images/webp/home-banner.webp');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .section-newhero {
+        height: calc(100vh - 92px);
+        margin-top: 32px;
+    }
+}
+
+.li-item-hero {
+    list-style-type: none;
+    /* Удаляем стандартный маркер списка */
+    position: relative;
+    /* Устанавливаем позицию для создания треугольника */
+    padding-left: 20px;
+    /* Добавляем отступ слева для элементов списка */
+}
+
+.li-item-hero:before {
+    content: "";
+    /* Добавляем содержимое пустого псевдоэлемента */
+    position: absolute;
+    /* Устанавливаем позицию для треугольника */
+    top: 50%;
+    /* Располагаем треугольник по вертикали посередине */
+    left: 0;
+    /* Располагаем треугольник в начале элемента списка */
+    transform: translateY(-0%) rotate(130deg);
+    /* Поворачиваем треугольник на 0 градусов */
+    border-top: 6px solid yellow;
+    /* Задаем цвет и толщину границы треугольника */
+    border-right: 6px solid transparent;
+    /* Скрываем правую границу треугольника */
+}
+
+.nav-link.cust-nav-link {
+    color: var(--color--black);
+}
+
+.nav-item:hover>a.nav-link.cust-nav-link::after {
+    width: 0;
+    opacity: 1;
+}
+
+/* Стили для элементов */
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+/* Стили для активной вкладки */
+.nav-tabs .nav-link.active {
+    background-color: #e92747 !important;
+    color: #fff !important;
+}
+
+/* Стили для наведения на вкладки */
+.nav-tabs .nav-link:hover {
+    border-color: tra;
+}
+
+/* Стили для основного портфолио */
+.main-portfolio.nav-tabs .nav-link {
+    border-radius: 0;
+    background-color: var(--color--white);
+    box-shadow: 0 7px 18px 0 rgba(0, 0, 0, .07);
+    color: #333;
+    padding: 11px 32px;
+    margin: 5px 10px;
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(231, 39, 71, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.portfolio-item-overlay i {
+    color: #fff;
+    font-size: 40px;
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+}
+
+// .portfolio-section {
+//     opacity: 0;
+//     transform: translateY(-100px);
+//     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+//   }
+
+//   .portfolio-section.show {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+
+//   .portfolio-section.hide {
+//     opacity: 0;
+//     transform: translateY(-100px);
+//   }
