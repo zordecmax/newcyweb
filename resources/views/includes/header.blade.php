@@ -11,7 +11,7 @@
         <div class="d-flex align-items-center">
           <div class="d-none d-md-flex">
             <i class="bi bi-phone lh-1 text-black"></i>
-            <a class="text-black hover-red ms-1" href="tel:+78142332211">+7(814)-233-22-11</a>
+            <a class="text-black hover-red ms-1" href="tel:+35799345184">+357 99345184</a>
           </div>
           <button class="btn-discount ms-3 d-none d-md-block">GET DISCOUNT</button>
         </div>
