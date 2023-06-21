@@ -7,126 +7,19 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
 @endsection
 
 @section('content')
-    <!-- hero -->
-    <section class="section-newhero">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center text-white">
-                <div class="col-12 col-lg-6">
-                    <p>Providing Complete Designs Services</p>
-                    <h1>We Are A Corporate
-                        Website Design &
-                        Development Company</h1>
-                    <p>Dedicated For Your Brand And Identity</p>
-                    <ul>
-                        <li class="li-item-hero">Let us aid you in generating more leads</li>
-                        <li class="li-item-hero">Increase your Return on investment by huge margins</li>
-                        <li class="li-item-hero">Get noticed by your audience at the first glance</li>
-                    </ul>
-                </div>
-                <div class="col-6 d-none d-lg-flex">
-                    <img class="img-fluid" src="https://globaldesignstop.com/images/webp/banner-side.webp" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- hero -->
+    <x-home.hero/>
 
-    <!-- portfolio -->
-    <section class="my-4">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2>Lead Focused Web Designs</h2>
-                <h3>Along With <span>Targeted Marketing Techniques</span> </h3>
-                <p>We build brands by impecular design sense combined with words that pull the interest of your target
-                    audience.
-                </p>
-            </div>
-            <ul class="nav nav-tabs cust-nav-tabs justify-content-center border-0 mb-5" id="myTab" role="tablist">
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="b2b-tab" data-bs-toggle="tab" href="#b2b" role="tab"
-                        aria-controls="b2b" aria-selected="false">Custom Webiste</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="fashion-tab" data-bs-toggle="tab" href="#fashion" role="tab"
-                        aria-controls="fashion" aria-selected="false">Fashion</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="realestate-tab" data-bs-toggle="tab" href="#realestate"
-                        role="tab" aria-controls="realestate" aria-selected="false">Real Estate</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="restaurant-tab" data-bs-toggle="tab" href="#restaurant"
-                        role="tab" aria-controls="restaurant" aria-selected="false">Restaurant</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="healthcare-tab" data-bs-toggle="tab" href="#healthcare"
-                        role="tab" aria-controls="healthcare" aria-selected="false">Health Care</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link active" id="entertainment-tab" data-bs-toggle="tab"
-                        href="#entertainment" role="tab" aria-controls="entertainment"
-                        aria-selected="true">Entertainment</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="beauty-tab" data-bs-toggle="tab" href="#beauty" role="tab"
-                        aria-controls="beauty" aria-selected="false">Beauty</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="auto-tab" data-bs-toggle="tab" href="#auto" role="tab"
-                        aria-controls="auto" aria-selected="false">Auto</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="cbd-tab" data-bs-toggle="tab" href="#cbd" role="tab"
-                        aria-controls="cbd" aria-selected="false">CBD</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="education-tab" data-bs-toggle="tab" href="#education"
-                        role="tab" aria-controls="education" aria-selected="false">Education</a>
-                </li>
-                <li role="presentation">
-                    <a class="nav-link cust-nav-link" id="fitness-tab" data-bs-toggle="tab" href="#fitness"
-                        role="tab" aria-controls="fitness" aria-selected="false">Fitness</a>
-                </li>
-            </ul>
+    <x-home.portfolio/>
 
-            <div class="row g-3">
-                <div class="col-12 col-md-4">
-                    <div class="portfolio-item">
-                        <img class="portfolio-item-img"
-                            src="https://globaldesignstop.com/images/webp/portfolio/Entertainment1.jpg" alt="">
-                        <div class="portfolio-item-overlay">
-                            <i class="bi bi-zoom-in"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="portfolio-item">
-                        <img class="portfolio-item-img"
-                            src="https://globaldesignstop.com/images/webp/portfolio/Entertainment1.jpg" alt="">
-                        <div class="portfolio-item-overlay">
-                            <i class="bi bi-zoom-in"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="portfolio-item">
-                        <img class="portfolio-item-img"
-                            src="https://globaldesignstop.com/images/webp/portfolio/Entertainment1.jpg" alt="">
-                        <div class="portfolio-item-overlay">
-                            <i class="bi bi-zoom-in"></i>
-                        </div>
-                    </div>
-                </div>
+    <x-home.services/>
 
+    <x-home.prices/>
 
-            </div>
-        </div>
-    </section>
-    <!-- portfolio -->
+    <x-home.contact/>
 
 
     <!-- Awesome features -->
-    <section id="features" class="section-wrapper">
+    {{-- <section id="features" class="section-wrapper">
         <div class="container">
             <div class="row align-items-center g-3">
                 <div class="col-12 text-center mb-4">
@@ -189,10 +82,10 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- OUR SERVICES -->
-    <section class="section-wrapper" id="services">
+    {{-- <section class="section-wrapper" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
@@ -249,10 +142,10 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     {{-- PRICES --}}
-    <section>
+    {{-- <section>
         <div class="container" id="prices">
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal">Pricing</h1>
@@ -312,10 +205,10 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
                 </div>
               </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- OUR WORKS -->
-    <section class="section-wrapper" id="portfolio">
+    {{-- <section class="section-wrapper" id="portfolio">
         <div class="container">
             <div class="row g-3">
                 <div class="col-12 text-center mb-4">
@@ -352,11 +245,11 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <!-- ABOUT US -->
-    <section class="section-wrapper" id="about">
+    {{-- <section class="section-wrapper" id="about">
         <div class="container">
             <div class="row g-3">
                 <div class="col-12 text-center mb-4">
@@ -393,10 +286,10 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- OUR PROCESS -->
-    <section class="section-wrapper">
+    {{-- <section class="section-wrapper">
         <div class="container">
             <div class="row g-3">
                 <div class="col-12 text-center mb-4">
@@ -447,10 +340,10 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- MEET THE TEAM -->
-    <section class="section-wrapper" id="team">
+    {{-- <section class="section-wrapper" id="team">
         <div class="container">
             <div class="row g-3">
                 <div class="col-12 text-center mb-4">
@@ -502,7 +395,7 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 @endsection
 

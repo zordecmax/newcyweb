@@ -23,3 +23,4 @@
 <!-- Google Tag Manager -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8MG5M940H"></script>
+<script src="{{ asset('js/animation.js') }}" defer></script>
