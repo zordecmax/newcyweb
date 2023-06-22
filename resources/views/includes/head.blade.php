@@ -20,6 +20,9 @@
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}" defer></script>
 
+{{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+{{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
+
 <!-- Google Tag Manager -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8MG5M940H"></script>

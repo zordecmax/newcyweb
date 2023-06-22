@@ -6,12 +6,11 @@
 </head>
 
 <body>
-
         @include('includes.header')
+        <x-flash-message />
         @yield('content')
-        @include('includes.footer')
-
-    {{-- @stack('scripts') --}}
+        @include('includes.footer') 
+    @stack('scripts')
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var navItems = document.getElementsByClassName("nav-link");

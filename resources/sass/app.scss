@@ -1,396 +1,46 @@
-
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-:root {
-    --color--primary: #000000;
-    --color--secondary: #fae5e5;
-    --color--pink: #FAF4F4;
-    --color--pink_light: rgba(250, 244, 244, 0.5);
-    --color--white: #FFFFFF;
-    --color--gold: #B88E2F;
-    --color--yellow: #FBEBB5;
-    --color--yellow_light: #FFF9E5;
-    --color--gray_light: #9F9F9F;
-    --color--gray_dark: #D9D9D9;
-    --color--blue:#45aed6;
-    --color--red:#e92747;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--color--primary);
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .header {
-    padding: 19px 0;
-    background: var(--color--blue) !important;
-  }
-  
-  .nav-item {
-    padding: 0 10px;
-  }
-  
-  .navbar-fixed-top {
-    background: var(--color--white);
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-  
-  .section-wrapper{
-    padding-top: 120px;
-  }
-  
-  .navbar-toggler {
-    border: none;
-  }
-  
-  .navbar-toggler:focus {
-    border: none;
-    box-shadow: none;
-  }
-  
-  li.nav-item::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 0;
-    background-color: var(--color--primary);
-    position: relative;
-    bottom: -4px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  li.nav-item:hover::after {
-    width: 100%;
-    opacity: 1;
-  }
-  
-  li.nav-item::after {
-    opacity: 0;
-    width: 0;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  
-  .awesome-img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .item-img-container i {
-    margin-right: 24px;
-  }
-  
-  .item-img-container i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    height: 64px;
-    line-height: 64px;
-    width: 64px;
-    border-radius: 100%;
-    color: #45aed6;
-    box-shadow: inset 0 0 0 1px #d7d7d7;
-    position: relative;
-  }
-  
-  .work-item-img {
-    width: 100%;
-    height: 171px;
-    object-fit: cover;
-  }
-  
-  .work-content {
-    margin-top: 10px;
-  }
-  
-  .bi.bi-check-square {
-    color: #45aed6;
-    line-height: 1;
-  }
-  
-  .check-container {
-    max-width: 300px;
-  }
-  
-  .icon-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    border: 2px solid #45aed6;
-    border-radius: 100px;
-    position: relative;
-  }
-  
-  .icon-circle span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #45aed6;
-    border-radius: 50%;
-    background-color: #fff;
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    line-height: 20px;
-    top: -12px;
-    color: #64686d;
-  }
-  
-  .img-employ-container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 10px;
-    max-width: 220px;
-    height: 300px;
+//Variables
 
-    img{
-      width:100%;
-      height:100%;
-      object-fit: cover;
-    }
-  }
-  
-  
-  .icon-circle i{
-    line-height: 1;
-  }
+@import 'variables';
 
-  .lh-1 {
-    line-height: 1 !important;
-}
-
-.hover-red {
-    transition: all 0.5s ease;
-}
-
-.hover-red:hover {
-    color: var(--color--red) !important;
-}
-
-.btn-discount {
-    text-transform: uppercase;
-    color: #333;
-    padding: 13px 30px;
-    box-shadow: 0 7px 18px 0 rgba(0, 0, 0, .07);
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    transition: all 0.7s ease;
-}
-
-.btn-discount:hover {
-    background-color: var(--color--red);
-    border: 1px solid transparent;
-    color: var(--color--white);
-}
-
-.section-newhero {
-    height: calc(100vh - 106px);
-    margin-top: 106px;
-    background-image: url('https://globaldesignstop.com/images/webp/home-banner.webp');
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-@media (max-width: 576px) {
-    .section-newhero {
-        height: calc(100vh - 92px);
-        margin-top: 32px;
-    }
-}
-
-.li-item-hero {
-    list-style-type: none;
-    /* Удаляем стандартный маркер списка */
-    position: relative;
-    /* Устанавливаем позицию для создания треугольника */
-    padding-left: 20px;
-    /* Добавляем отступ слева для элементов списка */
-}
-
-.li-item-hero:before {
-    content: "";
-    /* Добавляем содержимое пустого псевдоэлемента */
-    position: absolute;
-    /* Устанавливаем позицию для треугольника */
-    top: 50%;
-    /* Располагаем треугольник по вертикали посередине */
-    left: 0;
-    /* Располагаем треугольник в начале элемента списка */
-    transform: translateY(-0%) rotate(130deg);
-    /* Поворачиваем треугольник на 0 градусов */
-    border-top: 6px solid yellow;
-    /* Задаем цвет и толщину границы треугольника */
-    border-right: 6px solid transparent;
-    /* Скрываем правую границу треугольника */
-}
-
-.nav-link.cust-nav-link {
-    color: var(--color--black);
-}
-
-.nav-item:hover>a.nav-link.cust-nav-link::after {
-    width: 0;
-    opacity: 1;
-}
-
-/* Стили для элементов */
-.nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-radius: 0.25rem 0.25rem 0 0;
-}
-
-/* Стили для активной вкладки */
-.nav-tabs .nav-link.active {
-    background-color: #e92747 !important;
-    color: #fff !important;
-}
-
-/* Стили для наведения на вкладки */
-.nav-tabs .nav-link:hover {
-    border-color: tra;
-}
-
-/* Стили для основного портфолио */
-.main-portfolio.nav-tabs .nav-link {
-    border-radius: 0;
-    background-color: var(--color--white);
-    box-shadow: 0 7px 18px 0 rgba(0, 0, 0, .07);
-    color: #333;
-    padding: 11px 32px;
-    margin: 5px 10px;
-}
-
-.text-red{
-  color:var(--color--red);
-}
+//Common
+@import 'common';
 
 
-.portfolio-item {
-    position: relative;
-}
+//Header
+@import 'header';
 
-.portfolio-item-img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
+//Awesome
+@import 'awesome';
 
-.portfolio-item-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(231, 39, 71, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
+//Works
+@import 'works';
 
-.portfolio-item-overlay i {
-    color: #fff;
-    font-size: 40px;
-}
+//About
+@import 'about';
 
-.portfolio-item:hover .portfolio-item-overlay {
-    opacity: 1;
-}
+//Process
+@import 'process';
 
-.service-item-img{
-  width: 64px;
-  height: 64px;
-  object-fit: cover;
-}
+//Hero
+@import 'hero';
 
-.strike{
-  text-decoration: line-through;
-}
+//Portfolio
+@import 'portfolio';
 
-.pkg-details{
-  background-color: #fff3e1;
-}
+//Animation
+@import 'animation';
 
-.bg-grey{
-  background-color: var(--color--gray_light);
-}
+//Contact
+@import 'contact';
 
-.text-grey{
-  color: var(--color--gray_light);
-}
+//Service
+@import 'service';
 
-.border-red{
-  border:1px solid var(--color--red);
-}
+//Prices
+@import 'prices';
 
-.btn-price-buy{
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 21px;
-  font-weight: bold;
-  border-radius: 50px;
-  padding: 7px 35px;
-  color:var(--color--white);
-  background-color: #e92747;
-}
-
-.contact-info{
-  padding: 85px 60px 60px 40px;
-  background-image: -webkit-linear-gradient(90deg, #141232 0, #1d1a4a 100%);
-  color: var(--color--white);
-}
-
-.btn-contact-info{
-  display: inline-block;
-  border-radius: 50px;
-  padding: 15px 25px;
-}
-
-.form-contact{
-  border-radius: 50px;
-  height: 54px;
-  padding-left: 20px;
-}
-
-.hidden{
-  opacity:0;
-  transition:all 3s;
-  filter:blur(5px);
-  transform: translateX(-100%);
-}
-
-.show{
-  opacity:1;
-  filter:blur(0);
-  transform: translateX(0);
-}
-
-@media(prefers-reduced-motion){
-  .hidden{
-      transition: none;
-  }
-}
+//FlashMessage
+@import 'flash-message';
