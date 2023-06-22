@@ -2,48 +2,44 @@
 <section class="hidden py-5">
     <div class="container">
       <div class="text-center mb-5">
-        <h2 class="fs-5">Global design stop Services</h2>
-        <h3 class="fs-1">A Wide Range Of <span class="text-red">Premium Services</span> That We Offer</h3>
-        <p>We are one of the leading Website Development Company that is eager to serve its client’s needs. Our website
-          design agency is impeccable and second to none. We boost your business efficiency and results though our
-          intricate processes and fantastic work ethic..
+        <h2 class="fs-5">How We Work</h2>
+        <h3 class="fs-1">OUR PROCESS
         </p>
       </div>
-      <div class="row g-3">
+      <div class="row g-3 justify-content-center">
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="service-item border text-center">
-            <img class="service-item-img mb-3" src="./images/promotion.png" alt="">
-            <h6>Social Media </h6>
+          <div class="service-item border text-center h-100">
+            {{-- <img class="service-item-img mb-3" src="./images/promotion.png" alt=""> --}}
+            <i class="bi bi-cup mb-3 fs-1"></i>
+            <h6>MEET</h6>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <div class="service-item border text-center">
-            <img class="service-item-img mb-3" src="./images/promotion.png" alt="">
-            <h6>Social Media </h6>
+            {{-- <img class="service-item-img mb-3" src="./images/promotion.png" alt=""> --}}
+            <i class="bi bi-megaphone mb-3 fs-1"></i>
+            <h6>PLAN</h6>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <div class="service-item border text-center">
-            <img class="service-item-img mb-3" src="./images/promotion.png" alt="">
-            <h6>Social Media </h6>
+            {{-- <img class="service-item-img mb-3" src="./images/promotion.png" alt=""> --}}
+            <i class="bi bi-heart-fill mb-3 fs-1"></i>
+            <h6>DEVELOP</h6>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <div class="service-item border text-center">
-            <img class="service-item-img mb-3" src="./images/promotion.png" alt="">
-            <h6>Social Media </h6>
+            {{-- <img class="service-item-img mb-3" src="./images/promotion.png" alt=""> --}}
+            <i class="bi bi-cup mb-3 fs-1"></i>
+            <h6>TESTING</h6>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <div class="service-item border text-center">
-            <img class="service-item-img mb-3" src="./images/promotion.png" alt="">
-            <h6>Social Media </h6>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="service-item border text-center">
-            <img class="service-item-img mb-3" src="./images/promotion.png" alt="">
-            <h6>Social Media </h6>
+            {{-- <img class="service-item-img mb-3" src="./images/promotion.png" alt=""> --}}
+            <i class="bi bi-alarm-fill mb-3 fs-1"></i>
+            <h6>LAUNCH</h6>
           </div>
         </div>
       </div>
