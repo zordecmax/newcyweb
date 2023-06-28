@@ -1,5 +1,5 @@
     <!-- OUR PROCESS -->
-    <section class="section-wrapper">
+    <section class="section-wrapper" id="features">
         <div class="container">
             <div class="row g-3">
                 <div class="col-12 text-center mb-4">
