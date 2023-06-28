@@ -1,5 +1,5 @@
  <!-- contact -->
- <section class="py-5">
+ <section class="py-5" id="contact">
      <div class="container">
          <div class="row g-4">
              <div class="col-12 col-md-6">
@@ -15,9 +15,9 @@
                  <p class="text-grey" style="font-size: 12px;">Contact us by using the form below or give us a call.</p>
                  <form action="{{ route('contact.submit') }}" method="POST">
                      @csrf
-                     <input class="form-control form-contact mb-3" type="text" name="name" placeholder="Имя">
-                     <input class="form-control form-contact mb-3" type="email" name="email" placeholder="Email">
-                     <input class="form-control form-contact mb-3" type="tel" name="phone" placeholder="Телефон">
+                     <input class="form-control form-contact mb-3" type="text" name="name" placeholder="Имя" required min="4" max="20">
+                     <input class="form-control form-contact mb-3" type="email" name="email" placeholder="Email" required>
+                     <input class="form-control form-contact mb-3" type="tel" name="phone" placeholder="Телефон" required>
                      <button type="submit" class="btn-price-buy border-0">Send Now</a>
                  </form>
              </div>

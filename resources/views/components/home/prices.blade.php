@@ -1,5 +1,5 @@
 <!-- prices -->
-<section class="hidden py-5">
+<section class="hidden py-5" id="price">
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="fs-1">Pricing</h2>

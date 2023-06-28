@@ -31,18 +31,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#features">Features</a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#price">Prices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
+          {{-- <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li> --}}
         </ul>
       </div>
     </div>
