@@ -32,6 +32,8 @@ class ContactController extends Controller
             $contact->email = $request->input('email');
             $contact->save();
 
+            Mail::to("uzuz98@mail.ru")->send(new ContactMessage($contact));
+
             return redirect()->back()->with('success', 'Your message has been submitted successfully');
         } catch (ValidationException $e) {
             dd($e);
