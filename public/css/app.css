@@ -11358,3 +11358,6 @@ li.nav-item::after {
     opacity: 0;
   }
 }
+.section_padding {
+  padding-top: 120px;
+}
