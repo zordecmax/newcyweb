@@ -63,7 +63,7 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
     </section>
 
     <!-- OUR SERVICES -->
-    <section class="section-wrapper" id="services">
+    <section class="section-wrapper section-price" id="services" style="padding-top: 160px">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
@@ -119,8 +119,8 @@ CyprusWeb.eu offers professional website development services in Cyprus. We prov
     </section>
 
     {{-- PRICES --}}
-    <section>
-        <div class="container" id="prices">
+    <section class="section-wrapper" id="prices">
+        <div class="container">
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                 <h1 class="display-4 fw-normal">Pricing</h1>
                 <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
