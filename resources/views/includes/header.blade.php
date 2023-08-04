@@ -16,9 +16,9 @@
             <!-- Навигация -->
             <div class="collapse navbar-collapse justfy-content-center justify-content-lg-end" id="navbarNav">
                 <ul class="navbar-nav navbar-center">
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link" href="#features">Features</a>
                     </li>
