@@ -8,6 +8,7 @@
 @endsection
 
 @section('content')
+    <x-hero/>
     <!-- Awesome features -->
     <section id="features" class="section-wrapper">
         <div class="container">
