@@ -6,12 +6,15 @@
 </head>
 
 <body>
-    @include('includes.header')
     <x-flash-message />
-    @yield('content')
-    @include('includes.footer')
+    <div class="wrapper">
+        @include('includes.header')
+        <main>
+            @yield('content')
+        </main>
+        @include('includes.footer')
+    </div>
     @stack('scripts')
-
 
 </body>
 

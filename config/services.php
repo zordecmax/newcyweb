@@ -14,6 +14,12 @@ return [
     |
     */
 
+    'mail' => [
+        'from_address' => env('MAIL_FROM_ADDRESS'),
+        'to_address' => env('MAIL_TO_ADDRESS'),
+    ],
+
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),

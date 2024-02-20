@@ -6,39 +6,35 @@ use App\Models\Contact;
 use App\Mail\ContactMessage;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ContactRequest;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Auth\Events\Validated;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
 
 class ContactController extends Controller
 {
-    public function store(Request $request)
+    public function index()
+    {
+        return view('pages.contacts');
+    }
+
+    public function store(ContactRequest $request)
     {
         try {
-            $validator = Validator::make($request->all(), [
-                'name' => 'required',
-                'email' => 'required',
-                'phone' => 'required'
+            $contact = Contact::create([
+                'name' => $request->name,
+                'phone' => $request->phone,
+                'email' => $request->email,
+                'message' => $request->message,
+                'company' => $request->company,
             ]);
 
-            if ($validator->fails()) {
-                throw new ValidationException($validator);
-            }
-
-            $contact = new Contact();
-            $contact->name = $request->input('name');
-            $contact->phone = $request->input('phone');
-            $contact->email = $request->input('email');
-            $contact->save();
-
-            Mail::to("uzuz98@mail.ru")->send(new ContactMessage($contact));
+            Mail::to(config('services.mail.from_address'))->send(new ContactMessage($contact));
 
             return redirect()->back()->with('success', 'Your message has been submitted successfully');
         } catch (ValidationException $e) {
             dd($e);
             $errorMessage = $e->getMessage() ?? "Error, Try again!";
-            return redirect()->back()->withErrors($validator)->with('error', $errorMessage);
+            return redirect()->back()->with('error', $errorMessage);
         }
     }
 }

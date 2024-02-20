@@ -3,7 +3,7 @@
 use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -19,8 +19,15 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 */
 
 Route::group(['prefix' => LaravelLocalization::setLocale()], function () {
-    Route::get('/', [HomeController::class, 'index'])->name('home');
-    Route::post('/contact/submit', [ContactController::class, 'store'])->name('contact.submit');
+    Route::get('/', [PageController::class, 'index'])->name('home');
+    Route::get('/portfolio', [PageController::class, 'portfolio'])->name('portfolio');
+    Route::get('/about', [PageController::class, 'about'])->name('about');
+    Route::get('/services', [PageController::class, 'services'])->name('services');
+
+    Route::get('/contacts', [ContactController::class, 'index'])->name('contacts.index');
+
+
+    Route::post('/contacts/store', [ContactController::class, 'store'])->name('contacts.store');
 });
 
 

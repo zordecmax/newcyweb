@@ -12780,8 +12780,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html,
 body {
+  height: 100%;
   font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+footer {
+  margin-top: 44px;
 }
 
 a {
@@ -12789,7 +12802,7 @@ a {
 }
 
 .hero-section {
-  height: calc(100vh - 260px);
+  height: calc(100vh - 200px);
 }
 
 .hero-content {
@@ -12798,6 +12811,7 @@ a {
 
 .service-card {
   border-radius: 15px;
+  height: 100%;
 }
 
 .stack-item {
@@ -12842,4 +12856,23 @@ a {
 .contact-textarea:focus-visible {
   border-color: #176b87;
   outline: none !important;
+}
+
+.portfolio-item:nth-child(even) .portfolio-img {
+  order: 2;
+}
+.portfolio-item:nth-child(even) .portfolio-content {
+  order: 1;
+}
+.portfolio-item:nth-child(even) .portfolio-content .portfolio-content__container {
+  margin-left: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .portfolio-item:nth-child(even) .portfolio-img {
+    order: 1;
+  }
+  .portfolio-item:nth-child(even) .portfolio-content {
+    order: 2;
+  }
 }

@@ -5,11 +5,7 @@ namespace App\Mail;
 use App\Models\Contact;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Content;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Config;
-use Illuminate\Mail\Mailables\Envelope;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 class ContactMessage extends Mailable
 {
@@ -35,9 +31,7 @@ class ContactMessage extends Mailable
      */
     public function build()
     {
-        $mailFromAddress = Config::get('mail.from.address');
-        $mailFromName = Config::get('mail.from.name');
-        return $this->from($mailFromAddress, $mailFromName)
-        ->view('emails.contact');
+        return $this->from(config('services.mail.from_address'), config('services.mail.to_address'))
+            ->view('emails.contact');
     }
 }

@@ -1,6 +1,4 @@
 const mix = require("laravel-mix");
-const VitePlugin = require("laravel-vite-plugin");
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

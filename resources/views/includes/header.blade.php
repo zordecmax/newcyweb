@@ -1,6 +1,6 @@
     <nav class="navbar navbar-expand-lg py-3 fixed-top bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="{{ route('home') }}">CYPRUSWEB</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -8,26 +8,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active mx-lg-4" aria-current="page" href="#">Home</a>
+                        <a class="nav-link {{ Route::is('home') ? 'active' : '' }} mx-lg-4" aria-current="page"
+                            href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-4" href="#">Services</a>
+                        <a class="nav-link {{ Route::is('home') ? 'active' : '' }} mx-lg-4" aria-current="page"
+                            href="{{ route('services') }}">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-4" href="#">Case Studies</a>
+                        <a class="nav-link {{ Route::is('portfolio') ? 'active' : '' }} mx-lg-4"
+                            href="{{ route('portfolio') }}">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-4" href="#">Careers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-lg-4" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-lg-4" href="#">Imprint</a>
+                        <a class="nav-link {{ Route::is('about') ? 'active' : '' }} mx-lg-4"
+                            href="{{ route('about') }}">About Us</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <a href="#" class="btn btn-lg btn-primary rounded-pill" type="submit">
+                    <a href="{{ route('contacts.index') }}" class="btn btn-lg btn-primary rounded-pill" type="submit">
                         Contacts
                     </a>
                 </form>

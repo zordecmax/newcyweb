@@ -5,8 +5,21 @@ $body-bg: #eef5ff;
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
+html,
 body {
+    height: 100%;
     font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+footer {
+    margin-top: 44px;
 }
 
 a {
@@ -14,7 +27,7 @@ a {
 }
 
 .hero-section {
-    height: calc(100vh - 260px);
+    height: calc(100vh - 200px);
 }
 
 .hero-content {
@@ -24,6 +37,7 @@ a {
 .service {
     &-card {
         border-radius: 15px;
+        height: 100%;
     }
 }
 
@@ -77,5 +91,35 @@ a {
     &:focus-visible {
         border-color: $primary;
         outline: none !important;
+    }
+}
+
+.portfolio-item {
+    &:nth-child(even) {
+        .portfolio-img {
+            order: 2;
+        }
+
+        .portfolio-content {
+            order: 1;
+
+            .portfolio-content__container {
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio-item {
+        &:nth-child(even) {
+            .portfolio-img {
+                order: 1;
+            }
+
+            .portfolio-content {
+                order: 2;
+            }
+        }
     }
 }
