@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-    <!-- services -->
     <section class="hero-section hero-section-margin-top">
         <div class="container">
             <h2 class="fw-bold text-center mb-5">What can we do for you</h2>
@@ -65,7 +64,6 @@
             </div>
         </div>
     </section>
-    <!-- services -->
 
     <x-contact-block />
 @endsection
