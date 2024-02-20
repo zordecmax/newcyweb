@@ -12,7 +12,7 @@
                             href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Route::is('home') ? 'active' : '' }} mx-lg-4" aria-current="page"
+                        <a class="nav-link {{ Route::is('services') ? 'active' : '' }} mx-lg-4" aria-current="page"
                             href="{{ route('services') }}">Services</a>
                     </li>
                     <li class="nav-item">

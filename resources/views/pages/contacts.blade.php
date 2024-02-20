@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <section class="hero hero-section-margin-top">
+    <section class="hero hero-section-margin-top section-bg">
         <div class="container">
             <div>
                 <div class="mb-5">
