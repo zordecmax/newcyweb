@@ -1,64 +1,56 @@
-<footer class="text-center text-lg-start bg-light text-muted">
-
-    <!-- Section: Links  -->
-    <section class="text-white py-3" style="background-color: #e15d08;">
+<footer class="text-center text-lg-start">
+    <section class="">
         <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
             <div class="row mt-3">
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        {{__('main.products')}}
-                    </h6>
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <div class="mb-3">
+                        <img src="#" alt="Logo" />
+                    </div>
                     <p>
-                        <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Laravel</a>
+                        We are an expert team with over 10 years of experience in
+                        software development that adjusts to your specific needs without
+                        wasting your time.
                     </p>
                 </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        {{__('main.useful_links')}}
-                    </h6>
+                    <h6 class="text-uppercase fw-bold mb-4">Links</h6>
                     <p>
-                        <a href="#" class="text-reset">{{__('main.home')}}</a>
+                        <a href="#!" class="text-reset">Pricing</a>
                     </p>
                     <p>
-                        <a href="#portfolio" class="text-reset">{{__('main.portfolio')}}</a>
+                        <a href="#!" class="text-reset">Settings</a>
                     </p>
                     <p>
-                        <a href="#price" class="text-reset">{{__('main.prices')}}</a>
+                        <a href="#!" class="text-reset">Orders</a>
                     </p>
                     <p>
-                        <a href="#contact" class="text-reset">{{__('main.contact')}}</a>
+                        <a href="#!" class="text-reset">Help</a>
                     </p>
                 </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">{{__('main.contact')}}</h6>
-                    <p>
-                        info@cyprusweb.eu
-                    </p>
-                    <p>+357 993 451 84</p>
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p>New York, NY 10012, US</p>
+                    <p>info@example.com</p>
+                    <p>+ 01 234 567 88</p>
+                    <p>+ 01 234 567 89</p>
                 </div>
-                <!-- Grid column -->
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Follow us</h6>
+                    <a href="#" class="me-2">
+                        <i class="bi bi-telegram fs-4"></i>
+                    </a>
+                    <a href="#" class="me-2">
+                        <i class="bi bi-linkedin fs-4"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-whatsapp fs-4"></i>
+                    </a>
+                </div>
             </div>
-            <!-- Grid row -->
         </div>
     </section>
-    <!-- Section: Links  -->
 </footer>

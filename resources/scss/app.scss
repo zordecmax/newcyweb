@@ -1,0 +1,81 @@
+$primary: #176b87;
+$secondary: #b4d4ff;
+$body-bg: #eef5ff;
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    height: calc(100vh - 260px);
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.service {
+    &-card {
+        border-radius: 15px;
+    }
+}
+
+.stack {
+    &-item {
+        max-width: 400px;
+    }
+}
+
+.contact {
+    &-content {
+        max-width: 700px;
+    }
+}
+
+.hero {
+    &-content {
+        max-width: 700px;
+    }
+}
+
+.hero-section-margin-top {
+    margin-top: 150px;
+}
+
+.contact-input {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid $primary;
+    outline: none;
+    transition: border-color 0.2s;
+    padding-left: 0;
+    padding-right: 0;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.contact-textarea {
+    background: transparent;
+    resize: none;
+    border: 2px solid $primary;
+
+    &:focus {
+        border-color: $primary;
+        box-shadow: none;
+        outline: none !important;
+    }
+
+    &:focus-visible {
+        border-color: $primary;
+        outline: none !important;
+    }
+}

@@ -1,60 +1,36 @@
-<header class="header navbar-fixed-top">
-  <nav class="navbar navbar-expand-xl">
-    <div class="container justify-content-between">
-      <!-- Логотип -->
-      <a class="navbar-brand" href="#">
-        Cyprusweb.eu
-      </a>
-
-      <div class="d-flex align-items-center order-2 order-xl-3">
-        <!-- Навигация -->
-        <div class="d-flex align-items-center">
-          <div class="d-none d-md-flex">
-            <i class="bi bi-phone lh-1 text-black"></i>
-            <a class="text-black hover-red ms-1" href="tel:+35799345184">+357 993 451 84</a>
-          </div>
-          <div class="dropdown ms-3 mt-2 mt-lg-0 d-flex align-items-center justify-content-center flex-column">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="navbarDropdownMenuLink"
-                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ LaravelLocalization::getCurrentLocale() }}
+    <nav class="navbar navbar-expand-lg py-3 fixed-top bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                    @if ($localeCode !== LaravelLocalization::getCurrentLocale())
-                        <a class="dropdown-item"
-                            href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                            {{ $localeCode }}
-                        </a>
-                    @endif
-                @endforeach
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-lg-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-4" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-4" href="#">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-4" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-4" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-4" href="#">Imprint</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a href="#" class="btn btn-lg btn-primary rounded-pill" type="submit">
+                        Contacts
+                    </a>
+                </form>
             </div>
         </div>
-          {{-- <button class="btn-discount ms-3 d-none d-md-block">GET DISCOUNT</button> --}}
-        </div>
-        <!-- Кнопка бургер для адаптивного меню -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-
-      <div class="collapse navbar-collapse justfy-content-center justify-content-lg-end order-3 order-xl-2" id="navbarNav">
-        <ul class="navbar-nav navbar-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">{{(__('main.home'))}}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">{{(__('main.portfolio'))}}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#price">{{(__('main.prices'))}}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">{{(__('main.contact'))}}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+    </nav>

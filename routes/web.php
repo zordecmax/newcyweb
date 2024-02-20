@@ -18,10 +18,9 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 |
 */
 
-Route::group(['prefix' => LaravelLocalization::setLocale()], function()
-{
-    Route::get('/', [HomeController::class,'index'])->name('home');
-    Route::post('/contact/submit', [ContactController::class,'store'])->name('contact.submit');
+Route::group(['prefix' => LaravelLocalization::setLocale()], function () {
+    Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::post('/contact/submit', [ContactController::class, 'store'])->name('contact.submit');
 });
 
 
@@ -31,4 +30,3 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Auth::routes();
-

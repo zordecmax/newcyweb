@@ -1,5 +1,5 @@
-const mix = require('laravel-mix');
-const VitePlugin = require('laravel-vite-plugin');
+const mix = require("laravel-mix");
+const VitePlugin = require("laravel-vite-plugin");
 
 /*
  |--------------------------------------------------------------------------
@@ -12,6 +12,7 @@ const VitePlugin = require('laravel-vite-plugin');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .react()
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js("resources/js/app.js", "public/js").sass(
+    "resources/scss/app.scss",
+    "public/css"
+);
