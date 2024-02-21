@@ -7,38 +7,36 @@
                         <a class="text-white fw-bold" href="{{ route('home') }}">CYPRUSWEB</a>
                     </div>
                     <p>
-                        At CyprusWeb, we aim to create web applications that redefine the digital landscape. We are a
-                        collective of talented developers and strategists united by one goal: to help our clients
-                        achieve their objectives and exceed their users' expectations.
+                        {{ __('main.footer_description') }}
                     </p>
                 </div>
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">Links</h6>
                     <p>
-                        <a href="{{ route('home') }}" class="text-reset">Home</a>
+                        <a href="{{ route('home') }}" class="text-reset">{{ __('main.home') }}</a>
                     </p>
                     <p>
-                        <a href="{{ route('about') }}" class="text-reset">About</a>
+                        <a href="{{ route('about') }}" class="text-reset">{{ __('main.about') }}</a>
                     </p>
                     <p>
-                        <a href="{{ route('portfolio') }}" class="text-reset">Portfolio</a>
+                        <a href="{{ route('portfolio') }}" class="text-reset">{{ __('main.portfolio') }}</a>
                     </p>
                     <p>
-                        <a href="{{ route('contacts.index') }}" class="text-reset">Contacts</a>
+                        <a href="{{ route('contacts.index') }}" class="text-reset">{{ __('main.contacts') }}</a>
                     </p>
                 </div>
 
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <h6 class="text-uppercase fw-bold mb-4">{{ __('main.contacts') }}</h6>
                     <p>Moldova Chisinau</p>
                     <p>str Matei Basarab 9/2</p>
                     <p>+373 69317188</p>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">Follow us</h6>
+                    <h6 class="text-uppercase fw-bold mb-4">{{ __('main.follow_us') }}</h6>
                     <a href="#" class="me-2">
                         <i class="bi bi-telegram fs-4 text-white"></i>
                     </a>

@@ -9,11 +9,9 @@
         <div class="container">
             <div>
                 <div class="mb-5">
-                    <h1 class="mb-2 fw-bold">Let's make your project a reality</h1>
+                    <h1 class="mb-2 fw-bold">{{ __('main.contacts_title') }}</h1>
                     <p class="fs-4">
-                        <span class="d-block">Feel free to reach out if you want to</span>
-                        <span class="d-block">
-                            collaborate with us, or simply have a chat.</span>
+                        {!! __('main.contacts_description') !!}
                     </p>
                 </div>
                 <div>
@@ -26,38 +24,38 @@
                                         <div>
                                             <input type="text" class="form-control contact-input" name="name"
                                                 required />
-                                            <p class="mt-1 text-muted">Name*</p>
+                                            <p class="mt-1 text-muted">{{ __('main.name') }}*</p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <div>
                                             <input type="text" class="form-control contact-input" name="company" />
-                                            <p class="mt-1 text-muted">Company*</p>
+                                            <p class="mt-1 text-muted">{{ __('main.company') }}*</p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <div>
                                             <input type="text" class="form-control contact-input" name="phone"
                                                 required />
-                                            <p class="mt-1 text-muted">Phone</p>
+                                            <p class="mt-1 text-muted">{{ __('main.phone') }}</p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <div>
                                             <input type="text" class="form-control contact-input" type="email"
                                                 name="email" required />
-                                            <p class="mt-1 text-muted">Email</p>
+                                            <p class="mt-1 text-muted">{{ __('main.email') }}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
-                                <textarea class="text-control contact-textarea w-100 h-100 p-3 rounded-4" placeholder="Tell us about yourself..."
+                                <textarea class="text-control contact-textarea w-100 h-100 p-3 rounded-4" placeholder={{ __('main.message') }}
                                     rows="5" name="message"></textarea>
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="btn btn-lg btn-primary rounded-pill" type="submit">
-                                    Submit form
+                                    {{ __('main.submit') }}
                                 </button>
                             </div>
                         </div>
