@@ -8,16 +8,18 @@
 
 @section('content')
     <!-- hero -->
-    <section class="hero-section hero-section-margin-top">
+    <section class="hero-section">
         <div class="container h-100">
-            <div class="d-flex align-items-center justify-content-center flex-column h-100">
-                <div class="hero-content text-center">
-                    <h1 class="fw-bold mb-3">
-                        {{ __('main.home_title') }}
-                    </h1>
-                    <p>
-                        {{ __('main.home_subtitle') }}
-                    </p>
+            <div class="d-flex justify-content-center flex-column" style="min-height: 100vh;">
+                <div class="hero-content text-start d-flex align-items-center justify-content-between">
+                    <div>
+                        <h1 class="fw-bold mb-3 home-title">
+                            {{ __('main.home_title') }}
+                        </h1>
+                        <p>
+                            {{ __('main.home_subtitle') }}
+                        </p>
+                    </div>
                     {{-- <a href="#">Our services</a> --}}
                 </div>
             </div>

@@ -31,7 +31,10 @@ class ContactMessage extends Mailable
      */
     public function build()
     {
-        return $this->from(config('services.mail.from_address'), config('services.mail.to_address'))
+        return $this->from(
+            setting('site.email_to_address') ?? config('services.mail.from_address'),
+            setting('site.email from') ?? config('services.mail.to_address')
+        )
             ->view('emails.contact');
     }
 }
