@@ -8,7 +8,19 @@
 
 @section('content')
     <!-- hero -->
-    <section class="hero-section">
+    <section class="hero-section area">
+         <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
         <div class="container h-100">
             <div class="d-flex justify-content-center flex-column" style="min-height: 100vh;">
                 <div class="hero-content text-start d-flex align-items-center justify-content-between">
