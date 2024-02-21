@@ -1,70 +1,48 @@
 <?php
 
 return [
-
-    /*
-    |--------------------------------------------------------------------------
-    | Main
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-    */
-
     'home' => 'Home',
-    'features' => 'Features',
-    'portfolio' => 'Portfolio',
-    'prices' => 'Prices',
-    'contact' => 'Contact',
-    'get_discount' => 'Get Discount',
-    'hero_title' => 'Multi Capability',
-    'hero_subtitle' => 'We are a passionate team of experts dedicated to delivering exceptional results. With years of experience and a deep understanding of the industry, we strive to provide innovative solutions tailored to meet our clients unique needs. Our commitment to excellence and attention to detail sets us apart, ensuring that every project we undertake is a success.',
-    'hero_item_1' => 'Tailored strategies for your unique requirements',
-    'hero_item_2' => 'Working together for optimal outcomes',
-    'hero_item_3' => 'Ongoing assistance and prompt response',
-    'hero_item_4' => 'In-depth knowledge for insightful solutions',
-    'our_works-title' => 'OUR WORKS',
-    'our_works-subtitle' => 'See Our Impressive Portfolio',
-    'our_process-subtitle' => 'How We Work',
-    'our_process-title' => 'OUR PROCESS',
-    'our_pricess-item_1' => 'Meet',
-    'our_pricess-item_2' => 'Plan',
-    'our_pricess-item_3' => 'Develop',
-    'our_pricess-item_4' => 'Testing',
-    'our_pricess-item_5' => 'Launch',
-    'pricing_title' => 'Prices',
-    'pricing_description' => 'Our prices are designed to meet the needs of different clients and provide them with flexible options. We are committed to providing high-quality web applications at competitive prices to help your business succeed online.',
-    'catalog_title' => 'Catalog',
-    'catalog_description' => 'Suitable for potential super-startups and brand revamps for companies.',
-    'catalog_item1' => '10 users included',
-    'catalog_item2' => '2 GB of storage',
-    'catalog_item3' => 'Email support',
-    'catalog_item4' => 'Help center access',
-    'ecommerce_title' => 'Ecommerce',
-    'ecommerce_description' => 'Suitable for potential super-startups and brand revamps for companies.',
-    'ecommerce_item1' => '20 users included',
-    'ecommerce_item2' => '10 GB of storage',
-    'ecommerce_item3' => 'Priority email support',
-    'ecommerce_item4' => 'Help center access',
-    'custom_website' => 'Custom Website',
-    'custom_website_description' => 'Suitable for potential super-startups and brand revamps for companies.',
-    'custom_website_item1' => '30 users included',
-    'custom_website_item2' => '15 GB of storage',
-    'custom_website_item3' => 'Phone and email support',
-    'custom_website_item4' => 'Help center access',
-    'view_details' => 'View Details',
-    'buy_now' => 'Buy Now',
-    'contact_advance' => 'Ask us anything, we have the friendliest customer service folks',
-    'send_now' => 'Send Now',
     'services' => 'Services',
-    'ecommerce' => 'Ecommerce',
-    'contact_title' => 'Let’s get started!',
-    'products' => 'Products',
-    'useful_links' => 'Useful Links',
+    'portfolio' => 'Portfolio',
+    'about' => 'About',
+    'contacts' => 'Contacts',
+
+    'home_title' => 'Turning Your Ideas into Web Mastery',
+    'home_subtitle' => 'Where Websites Become Art and Technology',
+
+    'home_services_title' => 'How We Can Help You',
+
+    'home_btn_all_services' => 'View All Services',
+
+    'home_skils_title' => 'We Work with the Following Technologies:',
+
+    'home_why_title' => 'Why Choose Us',
+
+    'home_why_item_1' => 'Our team possesses extensive experience in the field of information technology, enabling us to effortlessly tackle even the most challenging tasks. We strive to stay abreast of the latest trends and technologies to offer cutting-edge solutions tailored to your needs.',
+    'home_why_item_2' => 'Client satisfaction is our top priority at our company. We take pride in providing personalized services and flexible solutions to meet the unique needs of each client. Our dedicated team ensures open communication and seamless collaboration throughout the project lifecycle.',
+    'home_why_item_3' => 'We guarantee high-quality services and reliable solutions that help our clients succeed in their endeavors. With a focus on strict quality assurance and proven methodologies, we achieve results that exceed expectations. Our commitment to excellence ensures that each project is executed with precision and professionalism.',
+    'home_why_item_4' => 'Innovation is at the core of our philosophy. We leverage cutting-edge technologies and implement innovative approaches to drive digital transformation and achieve optimal outcomes for our clients. Our forward-thinking enables us to stay ahead and offer future-oriented, scalable solutions.',
+
+    'home_clients_title' => 'What Our Clients Have Said',
+
+    'contact_bunner_title' => 'Have a Project? Let\'s Build It Right. Together.',
+    'contact_bunner_subtitle' => 'Do you have a great product idea, or are you looking for a remote team to build products for your company? We would love to hear from you.',
+
+    'footer_description' => 'At CyprusWeb, we aim to create web applications that redefine the digital landscape. We are a collective of talented developers and strategists united by one goal: to help our clients achieve their objectives and exceed their users\' expectations.',
+    'follow_us' => 'Follow Us:',
+
+    'about_description' => '<p class="text-start">At CyprusWeb, we aim to create web applications that redefine the digital landscape. We are a collective of talented developers and strategists united by one goal: to help our clients achieve their objectives and exceed their users\' expectations.</p> <p class="text-start">We offer innovative and creative solutions that address the challenges of the modern online world. Our development process is based on a deep understanding of our client\'s business, their needs, and goals to craft unique and compelling web applications that serve as a key asset in their success.</p> <p class="text-start">We value transparency, innovation, and collaboration. Our team strives for continuous improvement and exploration of cutting-edge technologies to deliver the most advanced solutions to our clients. We also place great importance on building strong relationships with our clients, fostering long-term partnerships based on mutual trust and respect.</p> <p class="text-start">Specializing in custom web application development, we cover a wide range of projects from mobile applications and e-commerce platforms to corporate portals and web platforms. We also offer consultancy services for internet strategy, development, and optimization of user experience.</p> <p class="text-start">We invite you to join our family and embark on a journey towards digital success with us. Let\'s create something great together!</p>',
+
+    'contacts_title' => 'Bring Your Project to Life',
+    'contacts_description' => '<span class="d-block">Feel free to reach out if you want to</span><span class="d-block">collaborate with us, or simply have a chat.</span>',
+
     'name' => 'Name',
     'email' => 'Email',
+    'message' => 'Message',
     'phone' => 'Phone',
-    'contacts_description' => 'Contact us using the form below or give us a call.',
+    'submit' => 'Submit',
+    'company' => 'Company',
+    'contacts_description_placeholder' => 'Tell us about yourself',
+    'teach' => 'Teach',
+    'description' => 'Decription',
 ];

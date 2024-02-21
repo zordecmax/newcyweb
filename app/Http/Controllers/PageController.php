@@ -3,18 +3,27 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Advantage;
+use App\Models\Project;
+use App\Models\ServiceOffering;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
     public function index()
     {
-        return view('pages.home');
+        $services = ServiceOffering::take(3)->get();
+        $advantages = Advantage::all();
+
+        return view('pages.home', compact('services', 'advantages'));
     }
 
     public function portfolio()
     {
-        return view('pages.portfolio');
+        $projects = Project::all();
+
+
+        return view('pages.portfolio', compact('projects'));
     }
 
     public function about()
@@ -24,6 +33,8 @@ class PageController extends Controller
 
     public function services()
     {
-        return view('pages.services');
+        $services = ServiceOffering::all();
+
+        return view('pages.services', compact('services'));
     }
 }

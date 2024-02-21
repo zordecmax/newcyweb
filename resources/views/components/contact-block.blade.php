@@ -4,14 +4,13 @@
                 <div class="d-flex align-items-center justify-content-center">
                     <div class="contact-content">
                         <h2 class="fs-1 mb-5">
-                            Got a project? Let's build it properly. Together.
+                            {{ __('main.contact_bunner_title') }}
                         </h2>
                         <p class="fs-5 mb-5">
-                            Have a great product idea, or looking for a remote team to build
-                            products for your company? We would love to hear from you.
+                            {{ __('main.contact_bunner_subtitle') }}
                         </p>
                         <a href="{{ route('contacts.index') }}"
-                            class="btn btn-lg bg-white text-primary rounded-5 px-5 py-3">Contact</a>
+                            class="btn btn-lg bg-white text-primary rounded-5 px-5 py-3">{{ __('main.contacts') }}</a>
                     </div>
                 </div>
             </div>

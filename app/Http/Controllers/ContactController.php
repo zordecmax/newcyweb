@@ -28,7 +28,7 @@ class ContactController extends Controller
                 'company' => $request->company,
             ]);
 
-            Mail::to(config('services.mail.from_address'))->send(new ContactMessage($contact));
+            Mail::to(setting('site.email_to_address') ?? config('services.mail.from_address'))->send(new ContactMessage($contact));
 
             return redirect()->back()->with('success', 'Your message has been submitted successfully');
         } catch (ValidationException $e) {
