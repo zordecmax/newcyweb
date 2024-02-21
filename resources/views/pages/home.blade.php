@@ -1,10 +1,9 @@
 @extends('layouts.app')
 @section('title')
-    Website Development Cyprus | CyprusWeb.eu - Your Web Solutions Provider
+    {{ __('meta.home_meta_title') }}
 @endsection
 @section('description')
-    CyprusWeb.eu offers professional website development services in Cyprus. We provide custom web solutions tailored to
-    your business needs. Contact us today!
+    {{ __('meta.home_meta_description') }}
 @endsection
 
 @section('content')

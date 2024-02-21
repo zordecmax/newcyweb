@@ -44,4 +44,6 @@ return [
     'submit' => 'Отправить',
     'company' => 'Компания',
     'contacts_description_placeholder' => 'Расскажите нам о себе',
+    'teach' => 'Технологии',
+    'description' => 'Описание',
 ];

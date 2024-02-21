@@ -1,7 +1,9 @@
 @extends('layouts.app')
 @section('title')
+    {{ __('meta.contacts_meta_title') }}
 @endsection
 @section('description')
+    {{ __('meta.contacts_meta_description') }}
 @endsection
 
 @section('content')

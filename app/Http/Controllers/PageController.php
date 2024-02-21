@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Advantage;
+use App\Models\Project;
 use App\Models\ServiceOffering;
 use Illuminate\Http\Request;
 
@@ -19,7 +20,10 @@ class PageController extends Controller
 
     public function portfolio()
     {
-        return view('pages.portfolio');
+        $projects = Project::all();
+
+
+        return view('pages.portfolio', compact('projects'));
     }
 
     public function about()

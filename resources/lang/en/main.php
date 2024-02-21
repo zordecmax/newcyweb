@@ -43,4 +43,6 @@ return [
     'submit' => 'Submit',
     'company' => 'Company',
     'contacts_description_placeholder' => 'Tell us about yourself',
+    'teach' => 'Teach',
+    'description' => 'Decription',
 ];
