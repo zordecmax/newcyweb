@@ -30,9 +30,8 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">{{ __('main.contacts') }}</h6>
-                    <p>Moldova Chisinau</p>
-                    <p>str Matei Basarab 9/2</p>
-                    <p>+373 69317188</p>
+                    <p>Cyprus</p>
+                    <p>+353 99345184</p>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
