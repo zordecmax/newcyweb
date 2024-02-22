@@ -9,18 +9,18 @@
 @section('content')
     <!-- hero -->
     <section class="hero-section area">
-         <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
         <div class="container h-100">
             <div class="d-flex justify-content-center flex-column" style="min-height: 100vh;">
                 <div class="hero-content text-start d-flex align-items-center justify-content-between">
@@ -104,60 +104,24 @@
         <div class="container">
             <h2 class="text-center mb-5">Our clients said</h2>
             <div class="row g-4">
-                <div class="col-12 col-lg-4">
-                    <div class="card px-3 py-5 bg-white shadow-sm">
-                        <div class="card-body text-center">
-                            <img src="https://demo-basic.adminkit.io/img/avatars/avatar-4.jpg" alt="Christina Mason"
-                                class="img-fluid rounded-circle mb-2" width="128" height="128" />
-                            <h5 class="card-title mb-0">Markus Ziegler</h5>
-                            <div class="text-muted mb-2">Pakadoo</div>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                “We successfully employed a senior developer from Kodeson.
-                                Everything went great and we're very satisfied with their
-                                service. The pricing and deadlines they set were clear, and so
-                                was the process - a really good experience! ”
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card px-3 py-5 bg-white shadow-sm">
-                        <div class="card-body text-center">
-                            <img src="https://demo-basic.adminkit.io/img/avatars/avatar-4.jpg" alt="Christina Mason"
-                                class="img-fluid rounded-circle mb-2" width="128" height="128" />
-                            <h5 class="card-title mb-0">Markus Ziegler</h5>
-                            <div class="text-muted mb-2">Pakadoo</div>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                “We successfully employed a senior developer from Kodeson.
-                                Everything went great and we're very satisfied with their
-                                service. The pricing and deadlines they set were clear, and so
-                                was the process - a really good experience! ”
-                            </p>
+                @foreach ($clients as $client)
+                    <div class="col-12 col-lg-4">
+                        <div class="card px-3 py-5 bg-white shadow-sm h-100">
+                            <div class="card-body text-center">
+                                {{-- <img src="https://demo-basic.adminkit.io/img/avatars/avatar-4.jpg" alt="Christina Mason"
+                                class="img-fluid rounded-circle mb-2" width="128" height="128" /> --}}
+                                <h5 class="card-title mb-0">
+                                    {{ $client->getTranslatedAttribute('name', App::getLocale(), 'fallbackLocale') }}</h5>
+                                {{-- <div class="text-muted mb-2">Pakadoo</div> --}}
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    {{ $client->getTranslatedAttribute('description', App::getLocale(), 'fallbackLocale') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card px-3 py-5 bg-white shadow-sm">
-                        <div class="card-body text-center">
-                            <img src="https://demo-basic.adminkit.io/img/avatars/avatar-4.jpg" alt="Christina Mason"
-                                class="img-fluid rounded-circle mb-2" width="128" height="128" />
-                            <h5 class="card-title mb-0">Markus Ziegler</h5>
-                            <div class="text-muted mb-2">Pakadoo</div>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                “We successfully employed a senior developer from Kodeson.
-                                Everything went great and we're very satisfied with their
-                                service. The pricing and deadlines they set were clear, and so
-                                was the process - a really good experience! ”
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

@@ -7,7 +7,7 @@ return [
     'about' => 'About',
     'contacts' => 'Contacts',
 
-    'home_title' => 'Turning Your Ideas into Web Mastery',
+    'home_title' => 'Turning Your Ideas into Web Masterpieces',
     'home_subtitle' => 'Where Websites Become Art and Technology',
 
     'home_services_title' => 'How We Can Help You',
@@ -25,7 +25,7 @@ return [
 
     'home_clients_title' => 'What Our Clients Have Said',
 
-    'contact_bunner_title' => 'Have a Project? Let\'s Build It Right. Together.',
+    'contact_bunner_title' => 'Got a Project? Let\'s Build It Right, Together!',
     'contact_bunner_subtitle' => 'Do you have a great product idea, or are you looking for a remote team to build products for your company? We would love to hear from you.',
 
     'footer_description' => 'At CyprusWeb, we aim to create web applications that redefine the digital landscape. We are a collective of talented developers and strategists united by one goal: to help our clients achieve their objectives and exceed their users\' expectations.',
@@ -43,6 +43,6 @@ return [
     'submit' => 'Submit',
     'company' => 'Company',
     'contacts_description_placeholder' => 'Tell us about yourself',
-    'teach' => 'Teach',
-    'description' => 'Decription',
+    'teach' => 'Stack',
+    'description' => 'Description',
 ];
