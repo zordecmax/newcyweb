@@ -77,7 +77,7 @@ class ContactController extends Controller
             // // Отправка письма
             // $mail->send();
 
-            Mail::to(setting('site.email_to_address') ?? config('services.mail.from_address'))->send(new ContactMessage($contact));
+            Mail::to(setting('site.email_to_address'))->send(new ContactMessage($contact));
 
             return redirect()->back()->with('success', 'Your message has been submitted successfully');
         } catch (Exception $e) {
