@@ -46,4 +46,6 @@ return [
     'contacts_description_placeholder' => 'Расскажите нам о себе',
     'teach' => 'Технологии',
     'description' => 'Описание',
+
+    'faq' => 'Часто задаваемые вопросы',
 ];
