@@ -77,6 +77,7 @@
         </div>
     </section>
     <!-- stack -->
+    <x-home.example-project :projects="$projects" />
 
     <!-- why -->
     <section class="why py-5">
@@ -98,7 +99,7 @@
         </div>
     </section>
     <!-- why -->
-
+     
     <!-- our clients -->
     <section class="our-clients py-5">
         <div class="container">
