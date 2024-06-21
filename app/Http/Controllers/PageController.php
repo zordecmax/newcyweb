@@ -17,7 +17,7 @@ class PageController extends Controller
         $services = ServiceOffering::take(3)->get();
         $advantages = Advantage::all();
         $clients = Client::take(3)->get();
-        $projects=Project::all();
+        $projects = Project::take(9)->get();
         $questions = Question::all();
         return view('pages.home', compact('services', 'advantages', 'clients', 'questions', 'projects'));
     }
