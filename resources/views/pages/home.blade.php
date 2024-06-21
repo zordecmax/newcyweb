@@ -126,6 +126,6 @@
         </div>
     </section>
     <!-- our clients -->
-
+    <x-home.faq :questions="$questions" />
     <x-contact-block />
 @endsection

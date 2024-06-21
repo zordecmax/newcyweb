@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Advantage;
 use App\Models\Client;
 use App\Models\Project;
+use App\Models\Question;
 use App\Models\ServiceOffering;
 use Illuminate\Http\Request;
 
@@ -16,8 +17,8 @@ class PageController extends Controller
         $services = ServiceOffering::take(3)->get();
         $advantages = Advantage::all();
         $clients = Client::take(3)->get();
-
-        return view('pages.home', compact('services', 'advantages', 'clients'));
+        $questions = Question::all();
+        return view('pages.home', compact('services', 'advantages', 'clients', 'questions'));
     }
 
     public function portfolio()
