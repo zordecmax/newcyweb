@@ -6,19 +6,18 @@ body {
 h1 {
   margin: 50px 0 30px;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 90px;
 }
 
-.faq-container {
-  margin: 0 auto;
-  max-width: 600px;
+form {
+  margin: 0;
 }
 
 .faq {
   background-color: transparent;
   border: 1px solid #9fa4a8;
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 8px 0;
   overflow: hidden;
   padding: 10px;
   position: relative;

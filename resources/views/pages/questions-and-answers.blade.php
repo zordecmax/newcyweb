@@ -9,8 +9,8 @@
  <link href="/css/faq.css" rel="stylesheet">
  <script src="/js/faq.js" defer></script>
 @section('content')
-<h1>{{__('main.faq')}}</h1>
-<div class="container">
+<div class="container py-5">
+<h1 class="title text-center mb-5">{{__('main.faq')}}</h1>
   <div class="faq-container">
    @foreach($questions as $question)
     <div class="faq">
