@@ -1,17 +1,5 @@
-
-body {
-  background-color: #EEF5FF;
-  font-family: "Muli", sans-serif;
-}
-h1{
-  margin: 50px 0 30px;
-  text-align: center;
-  padding-top: 90px;
-}
-form
+.faq-section
 {
-  margin: 0;
-}
 .faq {
   background-color: transparent;
   border: 1px solid #9fa4a8;
@@ -35,7 +23,7 @@ form
   transform: rotateY(180deg);
 }
 
-.faq-title {
+.faq-question {
   margin: 0 35px 0 0;
 }
 
@@ -77,7 +65,4 @@ form
   display: block;
 }
 
-.faq.active .faq-toggle {
-  background-color: #9fa4a8;
 }
-
