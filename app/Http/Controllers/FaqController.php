@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Question;
 use Illuminate\Http\Request;
 
-class QuestionsAndAnswersController extends Controller
+class FaqController extends Controller
 {
     public function index()
     {
