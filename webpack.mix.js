@@ -14,4 +14,5 @@ mix.js("resources/js/app.js", "public/js").sass(
     "resources/scss/app.scss",
     "public/css")
    .sass("resources/scss/faq.scss", "public/css")
-   .js('resources/js/faq/faq.js', 'public/js');
+   .js('resources/js/faq/faq.js', 'public/js')
+   .sass("resources/scss/home/index.scss", "public/css");

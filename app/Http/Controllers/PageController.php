@@ -17,8 +17,9 @@ class PageController extends Controller
         $services = ServiceOffering::take(3)->get();
         $advantages = Advantage::all();
         $clients = Client::take(3)->get();
+        $projects=Project::all();
         $questions = Question::all();
-        return view('pages.home', compact('services', 'advantages', 'clients', 'questions'));
+        return view('pages.home', compact('services', 'advantages', 'clients', 'questions', 'projects'));
     }
 
     public function portfolio()
