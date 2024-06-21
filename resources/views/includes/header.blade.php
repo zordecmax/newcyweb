@@ -30,6 +30,10 @@
                         <a class="nav-link {{ Route::is('about') ? 'active' : '' }} mx-lg-4"
                             href="{{ route('about') }}">{{ __('main.about') }}</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ Route::is('questions-and-answers.index') ? 'active' : '' }} mx-lg-4"
+                            href="{{ route('questions-and-answers.index') }}">{{ __('FAQ') }}</a>
+                    </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <a href="{{ route('contacts.index') }}" class="btn btn-lg btn-primary rounded-pill" type="submit">

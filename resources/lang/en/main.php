@@ -45,4 +45,6 @@ return [
     'contacts_description_placeholder' => 'Tell us about yourself',
     'teach' => 'Stack',
     'description' => 'Description',
+
+    'faq' => 'Frequently asked questions',
 ];
