@@ -50,8 +50,7 @@
         <div class="container">
             <h2 class="text-center mb-5">{{ __('main.home_skils_title') }}</h2>
             <div class="d-flex justify-content-around row">
-           <x-home.technology/>
-      
+                <x-home.technology/>
             </div>
         </div>
     </section>
