@@ -76,6 +76,7 @@
             </div>
         </div>
     </section>
+    <x-home.what-get />
     <!-- stack -->
     <x-home.example-project :projects="$projects" />
 
