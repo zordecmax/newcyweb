@@ -61,4 +61,6 @@ return [
     'what-get-item5-text' => 'We use the latest trends in design and user interface.',
     'what-get-item6-title' => 'Responsive Layout',
     'what-get-item6-text' => 'Our websites automatically adapt to any devices and screens.',
+
+    'example-work' => 'Examples of work',
 ];
