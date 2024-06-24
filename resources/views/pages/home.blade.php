@@ -132,6 +132,9 @@
             </div>
         </div>
     </section>
+
+    <x-home.page-prices :page="$page" />
+
     <!-- our clients -->
     <x-home.faq :questions="$questions" />
     <x-contact-block />

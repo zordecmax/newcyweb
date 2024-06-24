@@ -9,6 +9,7 @@ use App\Models\Project;
 use App\Models\Question;
 use App\Models\ServiceOffering;
 use Illuminate\Http\Request;
+use TCG\Voyager\Models\Page;
 
 class PageController extends Controller
 {
@@ -19,7 +20,9 @@ class PageController extends Controller
         $clients = Client::take(3)->get();
         $projects = Project::take(9)->get();
         $questions = Question::all();
-        return view('pages.home', compact('services', 'advantages', 'clients', 'questions', 'projects'));
+        $page = Page::where('slug', 'prise')->firstOrFail(); 
+
+        return view('pages.home', compact('services', 'advantages', 'clients', 'questions', 'projects', 'page'));
     }
 
     public function portfolio()
