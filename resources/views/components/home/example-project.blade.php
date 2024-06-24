@@ -1,5 +1,3 @@
-<link href="/css/home/index.css" rel="stylesheet">
-<script src="/js/home/index.js" defer></script>
 <section class="example-project py-5">
     <div class="container">
         <h2 class="text-center mb-5">Examples of work</h2>
