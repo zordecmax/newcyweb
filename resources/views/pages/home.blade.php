@@ -7,6 +7,8 @@
 @endsection
 
 @section('content')
+<link href="/css/home/index.css" rel="stylesheet">
+<script src="/js/home/index.js" defer></script>
     <!-- hero -->
     <section class="hero-section area">
         <ul class="circles">
@@ -76,6 +78,10 @@
             </div>
         </div>
     </section>
+
+    <!-- what get -->
+    <x-home.what-get />
+
     <!-- stack -->
     <x-home.example-project :projects="$projects" />
 

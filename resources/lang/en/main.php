@@ -47,4 +47,20 @@ return [
     'description' => 'Description',
 
     'faq' => 'Frequently asked questions',
+
+    'what-get'=>'By ordering a website from us, you will get:',
+    'what-get-item1-title' => 'Modern Design',
+    'what-get-item1-text' => 'We use the latest trends in design and user interface.',
+    'what-get-item2-title' => 'Jewelry Layout',
+    'what-get-item2-text' => 'We only use handcrafted layout, avoiding "garbage" technologies.',
+    'what-get-item3-title' => 'Convenient, Fast CMS',
+    'what-get-item3-text' => 'We offer a super-fast CMS; its functionality saves you time and helps you rank higher in search engines.',
+    'what-get-item4-title' => 'SEO Optimization',
+    'what-get-item4-text' => 'All our projects are initially built with SEO features in mind.',
+    'what-get-item5-title' => 'Super-Fast Hosting',
+    'what-get-item5-text' => 'We use the latest trends in design and user interface.',
+    'what-get-item6-title' => 'Responsive Layout',
+    'what-get-item6-text' => 'Our websites automatically adapt to any devices and screens.',
+
+    'example-work' => 'Examples of work',
 ];
