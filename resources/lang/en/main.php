@@ -63,4 +63,6 @@ return [
     'what-get-item6-text' => 'Our websites automatically adapt to any devices and screens.',
 
     'example-work' => 'Examples of work',
+
+    'send-request'=>'Send request',
 ];

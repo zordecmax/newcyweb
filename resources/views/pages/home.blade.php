@@ -26,18 +26,26 @@
         <div class="container h-100">
             <div class="d-flex justify-content-center flex-column" style="min-height: 100vh;">
                 <div class="hero-content text-start d-flex align-items-center justify-content-between">
-                    <div>
+                    <div class="d-flex flex-column">
                         <h1 class="fw-bold mb-3 home-title">
                             {{ __('main.home_title') }}
                         </h1>
                         <p>
                             {{ __('main.home_subtitle') }}
                         </p>
+                        <div class="d-inline-block" style="z-index: 1000;">
+                            <a href="{{ route('contacts.index') }}" class="btn btn-lg btn-primary rounded-pill border-white custom-border" type="submit">
+                                {{ __('main.send-request') }}
+                            </a>
+                        </div>
                     </div>
                     {{-- <a href="#">Our services</a> --}}
                 </div>
+                
             </div>
         </div>
+
+
     </section>
     <!-- hero -->
 
