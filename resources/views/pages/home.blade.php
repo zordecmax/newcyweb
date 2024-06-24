@@ -44,6 +44,13 @@
     <!-- services -->
     <section class="services py-5">
         <x-services-block :services="$services" />
+        <div class="col-12 pt-4">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <a href="{{ route('services') }}" class="btn btn-lg btn-primary rounded-pill py-3 px-5" type="submit">
+                    {{ __('main.home_btn_all_services') }}
+                </a>
+            </div>
+        </div>
     </section>
     <!-- services -->
 
