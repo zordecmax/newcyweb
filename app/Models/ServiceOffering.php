@@ -13,4 +13,6 @@ class ServiceOffering extends Model
 
     protected $translatable = ['name', 'description'];
 
+    protected $fillable = ['icon'];
+
 }
