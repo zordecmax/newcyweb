@@ -26,24 +26,39 @@
         <div class="container h-100">
             <div class="d-flex justify-content-center flex-column" style="min-height: 100vh;">
                 <div class="hero-content text-start d-flex align-items-center justify-content-between">
-                    <div>
+                    <div class="d-flex flex-column">
                         <h1 class="fw-bold mb-3 home-title">
                             {{ __('main.home_title') }}
                         </h1>
                         <p>
                             {{ __('main.home_subtitle') }}
                         </p>
+                        <div class="d-inline-block" style="z-index: 1000;">
+                            <a href="{{ route('contacts.index') }}" class="btn btn-lg btn-primary rounded-pill border-white custom-border" type="submit">
+                                {{ __('main.send-request') }}
+                            </a>
+                        </div>
                     </div>
                     {{-- <a href="#">Our services</a> --}}
                 </div>
+                
             </div>
         </div>
+
+
     </section>
     <!-- hero -->
 
     <!-- services -->
     <section class="services py-5">
         <x-services-block :services="$services" />
+        <div class="col-12 pt-4">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <a href="{{ route('services') }}" class="btn btn-lg btn-primary rounded-pill py-3 px-5" type="submit">
+                    {{ __('main.home_btn_all_services') }}
+                </a>
+            </div>
+        </div>
     </section>
     <!-- services -->
 
@@ -51,30 +66,8 @@
     <section class="stack py-5">
         <div class="container">
             <h2 class="text-center mb-5">{{ __('main.home_skils_title') }}</h2>
-            <div class="row px-5 g-3">
-                <div class="col-12 col-md-6">
-                    <div class="stack-item">
-                        <h3 class="mb-3">Frontend Development</h3>
-                        <div>
-                            <span class="badge text-bg-primary fs-5 px-4 py-2 rounded-pill mb-2">HTML</span>
-                            <span class="badge text-bg-primary fs-5 px-4 py-2 rounded-pill mb-2">CSS</span>
-                            <span class="badge text-bg-primary fs-5 px-4 py-2 rounded-pill mb-2">JavaScript</span>
-                            <span class="badge text-bg-primary fs-5 px-4 py-2 rounded-pill mb-2">TypeScript</span>
-                            <span class="badge text-bg-primary fs-5 px-4 py-2 rounded-pill mb-2">React</span>
-                            <span class="badge text-bg-primary fs-5 px-4 py-2 rounded-pill mb-2">Next JS</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="stack-item">
-                        <h3 class="mb-3">Backend Development</h3>
-                        <div>
-                            <span class="badge text-bg-secondary text-white fs-5 px-4 py-2 rounded-pill mb-2">PHP</span>
-                            <span class="badge text-bg-secondary text-white fs-5 px-4 py-2 rounded-pill mb-2">Laravel</span>
-                            <span class="badge text-bg-secondary text-white fs-5 px-4 py-2 rounded-pill mb-2">MySQL</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="d-flex justify-content-around row">
+                <x-home.technology/>
             </div>
         </div>
     </section>

@@ -51,8 +51,8 @@ return [
     'what-get'=>'By ordering a website from us, you will get:',
     'what-get-item1-title' => 'Modern Design',
     'what-get-item1-text' => 'We use the latest trends in design and user interface.',
-    'what-get-item2-title' => 'Jewelry Layout',
-    'what-get-item2-text' => 'We only use handcrafted layout, avoiding "garbage" technologies.',
+    'what-get-item2-title' => 'Free consultations',
+    'what-get-item2-text' => "We train the customer's staff to work with CMS. We advise on all technical issues.",
     'what-get-item3-title' => 'Convenient, Fast CMS',
     'what-get-item3-text' => 'We offer a super-fast CMS; its functionality saves you time and helps you rank higher in search engines.',
     'what-get-item4-title' => 'SEO Optimization',
@@ -63,4 +63,6 @@ return [
     'what-get-item6-text' => 'Our websites automatically adapt to any devices and screens.',
 
     'example-work' => 'Examples of work',
+
+    'send-request'=>'Send request',
 ];
