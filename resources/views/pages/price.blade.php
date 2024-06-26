@@ -1,18 +1,22 @@
 @extends('layouts.app')
+
 @section('title')
-    {{ __('meta.price_meta_title') }}
+    {{ $page->getTranslatedAttribute('title', App::getLocale()) }}
 @endsection
+
 @section('description')
-    {{ __('meta.price_meta_description') }}
+    {{ $page->getTranslatedAttribute('meta_description', App::getLocale()) }}
 @endsection
+
 @section('keywords')
-    {{ __('meta.price_meta_keywords') }}
+    {{ $page->getTranslatedAttribute('meta_keywords', App::getLocale()) }}
 @endsection
+
 
 @section('content')
 <section class="hero hero-section-margin-top">
         <div class="container">
-                  <h2 class="text-center mb-4">{{__('main.price')}}</h2>
+                  <h1 class="text-center mb-4">{{__('main.price')}}</h1>
                     @if (empty($page->body))
                      <p class="text-center">There is no information on pricing.</p>
                     @else

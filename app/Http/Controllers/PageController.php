@@ -9,7 +9,7 @@ use App\Models\Project;
 use App\Models\Question;
 use App\Models\ServiceOffering;
 use Illuminate\Http\Request;
-use TCG\Voyager\Models\Page;
+use App\Models\Page;
 
 class PageController extends Controller
 {
