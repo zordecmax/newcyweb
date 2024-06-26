@@ -35,6 +35,10 @@
                             href="{{ route('portfolio') }}">{{ __('main.portfolio') }}</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {{ Route::is('price') ? 'active' : '' }} mx-lg-4"
+                            href="{{ route('price') }}">{{__('main.price')}}</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link {{ Route::is('about') ? 'active' : '' }} mx-lg-4"
                             href="{{ route('about') }}">{{ __('main.about') }}</a>
                     </li>

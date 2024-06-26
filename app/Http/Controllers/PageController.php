@@ -44,4 +44,10 @@ class PageController extends Controller
 
         return view('pages.services', compact('services'));
     }
+    public function price()
+    {
+        $page = Page::whereIn('slug', ['price'])->firstOrFail();
+
+        return view('pages.price', compact('page'));
+    }
 }
