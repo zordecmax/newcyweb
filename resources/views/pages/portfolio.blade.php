@@ -10,12 +10,13 @@
 @endsection
 
 @section('content')
+<link href="/css/portfolio/index.css" rel="stylesheet">
     <section class="hero-section-margin-top">
         <div class="container">
             @foreach ($projects as $project)
                 <div class="row g-2 g-lg-5 mb-5 portfolio-item">
-                    <div class="col-12 col-lg-4 portfolio-img">
-                        <img class="img-fluid rounded-5" src="{{ Voyager::image($project->image_url) }}"
+                    <div class="col-12 col-lg-4 portfolio-img portfolio-img-size">
+                        <img class="img-fluid portfolio-img-item" src="{{ Voyager::image($project->image_url) }}"
                             alt="{{ $project->name }}" />
                     </div>
                     <div class="col-12 col-lg-8 portfolio-content">
