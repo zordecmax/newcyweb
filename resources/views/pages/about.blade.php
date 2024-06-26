@@ -5,6 +5,9 @@
 @section('description')
     {{ __('meta.about_meta_description') }}
 @endsection
+@section('keywords')
+    {{ __('meta.about_meta_keywords') }}
+@endsection
 
 @section('content')
     <!-- about -->

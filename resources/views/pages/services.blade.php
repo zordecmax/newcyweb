@@ -5,6 +5,9 @@
 @section('description')
     {{ __('meta.services_meta_description') }}
 @endsection
+@section('keywords')
+    {{ __('meta.help_meta_keywords') }}
+@endsection
 
 @section('content')
     <section class="hero-section hero-section-margin-top">

@@ -65,4 +65,8 @@ return [
     'example-work' => 'Примеры работ',
 
     'send-request'=>'Отправить заявку',
+
+    'clients_said' =>'Наши клиенты говорят',
+
+    'price'=>'Цены',
 ];

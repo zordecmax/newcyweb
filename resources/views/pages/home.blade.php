@@ -5,6 +5,9 @@
 @section('description')
     {{ __('meta.home_meta_description') }}
 @endsection
+@section('keywords')
+    {{ __('meta.home_meta_keywords') }}
+@endsection
 
 @section('content')
 <link href="/css/home/index.css" rel="stylesheet">
@@ -102,7 +105,7 @@
     <!-- our clients -->
     <section class="our-clients py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Our clients said</h2>
+            <h2 class="text-center mb-5">{{__('main.clients_said') }}</h2>
             <div class="row g-4">
                 @foreach ($clients as $client)
                     <div class="col-12 col-lg-4">

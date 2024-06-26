@@ -16,4 +16,14 @@ return [
 
     'contacts_meta_title' => "Contact Us | CYPRUSWEB",
     'contacts_meta_description' => "Get in touch with CYPRUSWEB to discuss your project or simply have a chat. Reach out to our team for expert web development solutions and personalized services.",
+
+    'home_meta_keywords' => 'Web development in Cyprus, Website creation Cyprus, Web design Cyprus, SEO promotion Cyprus, E-commerce development Cyprus, Web applications Cyprus, Order a website Cyprus, Professional websites Cyprus',
+
+    'help_meta_keywords' => 'Analytics, Design, Development, Support',
+
+    'portfolio_meta_keywords' => 'Project development, Web design, Applications, Interfaces, Technologies, Innovations',
+
+    'about_meta_keywords' => 'Company, History, Our team, Mission, Values, Quality',
+
+    'contact_meta_keywords' => 'Bring Your Project to Life, collaborate with us, have a chat, discuss projects, consultation, contact us',
 ];

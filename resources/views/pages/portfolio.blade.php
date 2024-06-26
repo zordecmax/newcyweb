@@ -5,6 +5,9 @@
 @section('description')
     {{ __('meta.home_meta_description') }}
 @endsection
+@section('keywords')
+    {{ __('meta.portfolio_meta_keywords') }}
+@endsection
 
 @section('content')
     <section class="hero-section-margin-top">

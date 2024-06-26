@@ -65,4 +65,8 @@ return [
     'example-work' => 'Examples of work',
 
     'send-request'=>'Send request',
+
+    'clients_said' =>'Our clients said',
+
+    'price'=>'Price',
 ];
