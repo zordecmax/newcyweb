@@ -19,25 +19,11 @@
     cursor: pointer;
     margin-top: 20px;
 }
-.example-project 
+.example-project-size
 {
-    .card
-    {
-        width: 341px;
-         height: 341px; 
-         overflow: hidden;
-    }
-    .card-body
-    {
-        width: 100%; 
-        height: 100%;
-    }
-    .img-fluid
-    {
-        object-fit: cover;
-         width: 100%; 
-         height: auto;
-    }
+    width: 341px;
+    height: 341px; 
+    overflow: hidden;
 }
 .flip-card {
     perspective: 1000px; 

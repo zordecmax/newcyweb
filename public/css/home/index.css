@@ -21,20 +21,10 @@
   margin-top: 20px;
 }
 
-.example-project .card {
+.example-project-size {
   width: 341px;
   height: 341px;
   overflow: hidden;
-}
-.example-project .card-body {
-  width: 100%;
-  height: 100%;
-}
-.example-project .img-fluid {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: auto;
 }
 
 .flip-card {

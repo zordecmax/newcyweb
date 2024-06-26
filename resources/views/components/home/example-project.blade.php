@@ -5,11 +5,11 @@
           @if(count($projects) > 0)
             @foreach ($projects as $project)
             <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-                <div class="card bg-white shadow-sm flip-card">
+                <div class="card example-project-size bg-white shadow-sm flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <div class="card-body d-flex align-items-start justify-content-center p-0">
-                                <img class="img-fluid" style="height: auto;" src="{{ Voyager::image($project->image_url) }}" alt="{{ $project->name }}" />
+                                <img class="img-fluid" src="{{ Voyager::image($project->image_url) }}" alt="{{ $project->name }}" />
                             </div>
                         </div>
                         <div class="flip-card-back">
