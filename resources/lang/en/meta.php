@@ -26,8 +26,4 @@ return [
     'about_meta_keywords' => 'Company, History, Our team, Mission, Values, Quality',
 
     'contact_meta_keywords' => 'Bring Your Project to Life, collaborate with us, have a chat, discuss projects, consultation, contact us',
-
-    'price_meta_title' => 'Website Creation Prices in Cyprus - Web Development Services',
-    'price_meta_description' => 'Discover the cost of website creation in Cyprus. Our experts offer professional website development and support. Get a personalized quote today!',
-    'price_meta_keywords' => 'website creation costs Cyprus, professional web development services, web design services, website development pricing',
 ];
