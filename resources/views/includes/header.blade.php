@@ -1,6 +1,14 @@
+<link href="/css/header/index.css" rel="stylesheet">
     <nav class="navbar navbar-expand-lg py-3 fixed-top bg-white">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}">CYPRUSWEB</a>
+            <a class="navbar-brand" href="{{ route('home') }}">
+             @if (setting('site.logo'))
+                  <img src="{{ asset('/storage/' . setting('site.logo')) }}" alt="Logo"
+                    class="header-logo"/>
+             @else
+                   CYPRUSWEB
+             @endif
+            </a>
             <div class="d-flex align-items-center">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
