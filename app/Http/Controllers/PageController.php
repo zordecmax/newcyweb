@@ -20,7 +20,7 @@ class PageController extends Controller
         $clients = Client::take(3)->get();
         $projects = Project::take(9)->get();
         $questions = Question::all();
-        $page = Page::whereIn('slug', ['prise'])->firstOrFail();
+        $page = Page::whereIn('slug', ['price'])->firstOrFail();
 
         return view('pages.home', compact('services', 'advantages', 'clients', 'questions', 'projects', 'page'));
     }
