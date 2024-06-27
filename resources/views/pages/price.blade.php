@@ -14,9 +14,9 @@
 
 
 @section('content')
-<section class="hero hero-section-margin-top">
-        <div class="container">
-                  <h1 class="text-center mb-4">{{__('main.price')}}</h1>
+<section class="pt-5">
+        <div class="container pt-5">
+                  <h1 class="text-center pt-5 mb-4">{{__('main.price')}}</h1>
                     @if (empty($page->body))
                      <p class="text-center">There is no information on pricing.</p>
                     @else
