@@ -27,6 +27,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function () {
     Route::get('/services', [PageController::class, 'services'])->name('services');
 
     Route::get('/contacts', [ContactController::class, 'index'])->name('contacts.index');
+    Route::get('/price', [PageController::class, 'price'])->name('price');
 
 
     Route::post('/contacts/store', [ContactController::class, 'store'])->name('contacts.store');

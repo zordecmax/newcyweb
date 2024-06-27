@@ -9,7 +9,7 @@ use App\Models\Project;
 use App\Models\Question;
 use App\Models\ServiceOffering;
 use Illuminate\Http\Request;
-use TCG\Voyager\Models\Page;
+use App\Models\Page;
 
 class PageController extends Controller
 {
@@ -43,5 +43,11 @@ class PageController extends Controller
         $services = ServiceOffering::all();
 
         return view('pages.services', compact('services'));
+    }
+    public function price()
+    {
+        $page = Page::whereIn('slug', ['price'])->firstOrFail();
+
+        return view('pages.price', compact('page'));
     }
 }
