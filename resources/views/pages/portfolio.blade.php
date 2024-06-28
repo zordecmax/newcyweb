@@ -11,13 +11,26 @@
 
 @section('content')
 <link href="/css/portfolio/index.css" rel="stylesheet">
+<script src="/js/portfolio/index.js" defer></script>
     <section class="hero-section-margin-top">
         <div class="container">
             @foreach ($projects as $project)
                 <div class="row g-2 g-lg-5 mb-5 portfolio-item">
-                    <div class="col-12 col-lg-4 portfolio-img portfolio-img-size">
-                        <img class="img-fluid portfolio-img-item" src="{{ Voyager::image($project->image_url) }}"
-                            alt="{{ $project->name }}" />
+                    <div class="col-12 col-lg-4 portfolio-img justify-content-center">
+                     <div class="card example-project-size bg-white shadow-sm flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-body d-flex align-items-start justify-content-center p-0">
+                                <img class="img-fluid" src="{{ Voyager::image($project->image_url) }}" alt="{{ $project->name }}" />
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="card-body d-flex align-items-center justify-content-center p-0">
+                                <a href="#" class="btn btn-primary view-details" data-image="{{ Voyager::image($project->image_url) }}">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     </div>
                     <div class="col-12 col-lg-8 portfolio-content">
                         <div class="ms-0 ms-lg-5">
