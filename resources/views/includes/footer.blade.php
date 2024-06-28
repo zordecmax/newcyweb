@@ -36,13 +36,13 @@
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">{{ __('main.follow_us') }}</h6>
-                    <a href="#" class="me-2">
+                    <a href="{{ setting('site.my_telegram') }}" class="me-2">
                         <i class="bi bi-telegram fs-4 text-white"></i>
                     </a>
-                    <a href="#" class="me-2">
+                    <a href="{{ setting('site.my_linkedin') }}" class="me-2">
                         <i class="bi bi-linkedin fs-4 text-white"></i>
                     </a>
-                    <a href="#">
+                    <a href="{{ setting('site.my_whatsapp') }}">
                         <i class="bi bi-whatsapp fs-4 text-white"></i>
                     </a>
                 </div>
