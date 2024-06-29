@@ -3,7 +3,7 @@
         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {{ LaravelLocalization::getCurrentLocale() }}
     </button>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    <div class="dropdown-menu menu-language" aria-labelledby="navbarDropdownMenuLink">
         @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
             @if ($localeCode !== LaravelLocalization::getCurrentLocale())
                 <a class="dropdown-item" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">

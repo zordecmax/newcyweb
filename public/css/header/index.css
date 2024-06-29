@@ -1,3 +1,7 @@
 .header-logo {
   height: 40px;
 }
+
+.menu-language {
+  min-width: 100%;
+}
