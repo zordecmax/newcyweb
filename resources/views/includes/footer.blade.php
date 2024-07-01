@@ -23,6 +23,9 @@
                         <a href="{{ route('portfolio') }}" class="text-reset">{{ __('main.portfolio') }}</a>
                     </p>
                     <p>
+                        <a href="{{ route('price') }}" class="text-reset">{{ __('main.price') }}</a>
+                    </p>
+                    <p>
                         <a href="{{ route('contacts.index') }}" class="text-reset">{{ __('main.contacts') }}</a>
                     </p>
                 </div>
@@ -31,7 +34,9 @@
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">{{ __('main.contacts') }}</h6>
                     <p>Cyprus</p>
-                    <p>+353 99345184</p>
+                    <a href="tel:{{ setting('site.my_phone') }}" class="text-reset" title="Phone"  target="_blank">
+                        <p>{{ setting('site.my_phone') }}</p>
+                    </a>
                 </div>
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
