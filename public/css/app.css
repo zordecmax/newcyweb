@@ -12877,6 +12877,7 @@ a {
   text-decoration: none;
   color: black;
   transition: color 0.3s;
+  display: inline-block; /* Добавляем это свойство */
 }
 
 .header-link.active {
@@ -12895,8 +12896,8 @@ a {
 
 @media (max-width: 992px) {
   .header-link::after {
-    width: 0;
-    opacity: 0;
+    width: 100%;
+    opacity: 1;
   }
 }
 @media (max-width: 992px) {
