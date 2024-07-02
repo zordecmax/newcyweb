@@ -12872,6 +12872,33 @@ a {
   font-size: 72px;
 }
 
+.header-link {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.header-link.active {
+  color: #4e54c8 !important;
+}
+
+.header-link.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #4e54c8;
+  margin-top: 2px;
+  transition: background-color 0.3s;
+}
+
+@media (max-width: 992px) {
+  .header-link::after {
+    width: 0;
+    opacity: 0;
+  }
+}
 @media (max-width: 992px) {
   .portfolio-item:nth-child(even) .portfolio-img {
     order: 1;
