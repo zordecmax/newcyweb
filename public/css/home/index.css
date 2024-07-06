@@ -27,6 +27,11 @@
   overflow: hidden;
 }
 
+.flip-card {
+  perspective: 1000px;
+  will-change: transform;
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
