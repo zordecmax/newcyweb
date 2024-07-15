@@ -141,18 +141,12 @@
 }
 </style>
 
-<!-- Google Tag Manager -->
-<!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8MG5M940H"></script> -->
-@if(app()->environment('production'))
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8S9PPR485"></script>
+@if (app()->environment('production') && $googleAnalyticsId = setting('site.google_analytics_tracking_id'))
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ $googleAnalyticsId }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-
-      gtag('config', '{{ setting("admin.google_analytics_client_id") }}');
+      gtag('config', '{{ $googleAnalyticsId }}');
     </script>
 @endif
-
