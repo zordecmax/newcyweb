@@ -26,7 +26,7 @@
                         </div>
                         <div class="flip-card-back">
                             <div class="card-body d-flex align-items-center justify-content-center p-0">
-                                <a href="#" class="btn btn-primary view-details" data-image="{{ Voyager::image($project->image_url) }}"><i class="bi bi-arrow-right-circle-fill fs-4"></i></a>
+                                <a href="#" class="btn btn-primary view-details" data-image="{{ Voyager::image($project->image_url) }}"><i class="bi bi-hand-index-thumb-fill fs-4"></i></a>
                             </div>
                         </div>
                     </div>

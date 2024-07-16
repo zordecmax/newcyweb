@@ -16,7 +16,7 @@
                             <div class="card-body d-flex align-items-center justify-content-center flex-column p-0">
                                 <div class="fw-bold fs-4">{{ $project->title }}</div>
                                 <p class="text-center fw-bold">{{ $project->getTranslatedAttribute('home_description', App::getLocale(), 'fallbackLocale')}}</p>
-                                <a href="#" class="btn btn-primary view-details" data-image="{{ Voyager::image($project->image_url) }}"><i class="bi bi-arrow-right-circle-fill fs-4"></i></a>
+                                <a href="#" class="btn btn-primary view-details" data-image="{{ Voyager::image($project->image_url) }}"><i class="bi bi-hand-index-thumb-fill fs-4"></i></a>
                             </div>
                         </div>
                     </div>
