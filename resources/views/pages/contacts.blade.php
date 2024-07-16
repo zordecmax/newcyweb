@@ -17,7 +17,7 @@
                 <h1 class="mb-2 fw-bold">{{ __('main.contacts_title') }}</h1>
                 <div class="mt-4"></div>
                 <p class="fs-5">{{ __('main.call_to_action') }}</p>
-                <a href="tel:+35799345184" class="btn btn-primary">{{ __('main.call_now') }}</a>
+                <a href="tel:+35799345184" class="btn btn-primary rounded-pill">{{ __('main.call_now') }}</a>
             </div>
             <p class="fs-4">
                 {!! __('main.contacts_description') !!}

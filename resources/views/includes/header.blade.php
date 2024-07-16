@@ -42,6 +42,9 @@
                     <a class="nav-link header-link {{ Route::is('about') ? 'active' : '' }} mx-lg-4"
                         href="{{ route('about') }}">{{ __('main.about') }}</a>
                  </li>
+                 <li>
+                     <a href="tel:+35799345184" class="nav-link header-link d-lg-none">{{ __('main.call_now') }}</a>
+                 </li>
              </ul>
             <form class="d-flex" role="search">
               <a href="{{ route('contacts.index') }}" class="btn btn-lg btn-primary rounded-pill" type="submit">
