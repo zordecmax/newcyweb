@@ -22,6 +22,16 @@ document.addEventListener('DOMContentLoaded', function () {
         overlay.remove();
         document.body.style.overflow = '';
       });
+
+      function handleEsc(event) {
+        if (event.key === 'Escape') {
+          overlay.remove();
+          document.body.style.overflow = '';
+          document.removeEventListener('keydown', handleEsc);
+        }
+      }
+
+      document.addEventListener('keydown', handleEsc);
     });
   });
   document.addEventListener('click', function (event) {
