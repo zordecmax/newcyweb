@@ -12,5 +12,6 @@ class Project extends Model
 
     protected $translatable = [
         'description',
+        'home_description',
     ];
 }
