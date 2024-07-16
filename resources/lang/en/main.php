@@ -6,6 +6,8 @@ return [
     'portfolio' => 'Portfolio',
     'about' => 'About',
     'contacts' => 'Contacts',
+    'call_to_action' => 'Get a Quote',
+    'call_now' => 'Call now',
 
     'home_title' => 'Turning Your Ideas into Web Masterpieces',
     'home_subtitle' => 'Where Websites Become Art and Technology',
@@ -48,7 +50,7 @@ return [
 
     'faq' => 'Frequently asked questions',
 
-    'what-get'=>'By ordering a website from us, you will get:',
+    'what-get' => 'By ordering a website from us, you will get:',
     'what-get-item1-title' => 'Modern Design',
     'what-get-item1-text' => 'We use the latest trends in design and user interface.',
     'what-get-item2-title' => 'Free consultations',
@@ -64,9 +66,9 @@ return [
 
     'example-work' => 'Examples of work',
 
-    'send-request'=>'Send request',
+    'send-request' => 'Send request',
 
-    'clients_said' =>'Our clients said',
+    'clients_said' => 'Our clients said',
 
-    'price'=>'Price',
+    'price' => 'Price',
 ];
