@@ -150,4 +150,6 @@
       gtag('config', '{{ $googleAnalyticsId }}');
     </script>
 @endif
+@if (app()->environment('production'))
 <script src="//code.jivo.ru/widget/9H1VuhHHYr" async></script>
+@endif
