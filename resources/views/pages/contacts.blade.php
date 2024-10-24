@@ -32,26 +32,29 @@
                         <div class="row g-3 g-md-5">
                             <div class="col-12 col-md-6">
                                 <div>
-                                    <input type="text" class="form-control contact-input" name="name" required />
+                                    <input type="text" class="form-control contact-input" name="name" required
+                                        placeholder="John Doe" />
                                     <p class="mt-1 text-muted">{{ __('main.name') }}*</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div>
-                                    <input type="text" class="form-control contact-input" name="company" />
+                                    <input type="text" class="form-control contact-input" name="company"
+                                        placeholder="Alexweb" />
                                     <p class="mt-1 text-muted">{{ __('main.company') }}*</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div>
-                                    <input type="text" class="form-control contact-input" name="phone" required />
+                                    <input type="text" class="form-control contact-input" name="phone" required
+                                        placeholder="+1 (123) 456-7890" />
                                     <p class="mt-1 text-muted">{{ __('main.phone') }}</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div>
                                     <input type="text" class="form-control contact-input" type="email" name="email"
-                                        required />
+                                        required placeholder="example@example.com" />
                                     <p class="mt-1 text-muted">{{ __('main.email') }}</p>
                                 </div>
                             </div>
