@@ -154,4 +154,6 @@
 <script src="//code.jivo.ru/widget/9H1VuhHHYr" async></script>
 @endif
 
-{!! RecaptchaV3::initJs() !!}
+@if(setting('admin.captcha'))
+ {!! RecaptchaV3::initJs() !!}
+@endif

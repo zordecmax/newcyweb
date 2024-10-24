@@ -25,7 +25,9 @@
         </div>
         <div>
             <form action="{{ route('contacts.store') }}" method="POST">
-            {!! RecaptchaV3::field('contact') !!}
+            @if(setting('admin.captcha'))
+              {!! RecaptchaV3::field('contact') !!}
+            @endif
                 @csrf
                 <div class="row g-3 g-md-5">
                     <div class="col-12 col-md-6">
