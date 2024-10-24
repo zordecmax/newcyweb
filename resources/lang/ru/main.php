@@ -71,4 +71,6 @@ return [
     'clients_said' =>'Наши клиенты говорят',
 
     'price'=>'Цены',
+
+    'error-captcha' => 'Ошибка капчи',
 ];

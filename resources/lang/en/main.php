@@ -71,4 +71,6 @@ return [
     'clients_said' => 'Our clients said',
 
     'price' => 'Price',
+
+    'error-captcha' => 'Error captcha',
 ];
