@@ -153,3 +153,5 @@
 @if (app()->environment('production'))
 <script src="//code.jivo.ru/widget/9H1VuhHHYr" async></script>
 @endif
+
+{!! RecaptchaV3::initJs() !!}
