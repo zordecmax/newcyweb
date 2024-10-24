@@ -36,7 +36,7 @@ class ContactRequest extends FormRequest
     public function messages()
     {
         return [
-            'g-recaptcha-response.recaptchav3' => 'Captcha error', 
+            'g-recaptcha-response.recaptchav3' => __('main.error-captcha'), 
         ];
     }
 }
